@@ -1,29 +1,153 @@
 {
   "unit_number": 3,
   "title": "Understand the Need for Neural Networks",
-  "summary": "Neural networks enable machines to simulate the structure of the human brain for better pattern recognition. This unit explains why linear algorithms aren't always sufficient and introduces the layers, nodes, and feedback mechanisms used in deep learning models.",
+  "summary": "- **Complex Relationships**: Neural networks allow AI systems to recognize complex relationships between input data and outcomes, crucial for sophisticated predictions.\n- **Simple vs. Complex Models**: Simple AI models assign a single importance (weight) to each input, but this oversimplifies real-world scenarios.\n- **Node Structure**: Neural networks solve this by creating multiple interconnected nodes to represent unique combinations of inputs.\n- **Biases and Weights**: Each node adjusts the final output based on biases and additional weights.\n- **Deep Learning**: Adding more layers and nodes creates \"deep learning,\" enabling the AI to discover hidden relationships by making multiple leaps of inference.\n- **Black Box Nature**: Although powerful, neural networks are often \"black boxes,\" making predictions without clear explanations.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "Why do we need neural networks instead of simpler AI models?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They require less computing power."
+        },
+        {
+          "id": "B",
+          "text": "They perfectly match every human decision."
+        },
+        {
+          "id": "C",
+          "text": "They better handle complex, scenario-dependent relationships."
+        },
+        {
+          "id": "D",
+          "text": "They always provide completely transparent explanations.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "What term refers to the adjustments applied to specific scenarios within a neural network?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodes"
+        },
+        {
+          "id": "B",
+          "text": "Weights"
+        },
+        {
+          "id": "C",
+          "text": "Biases"
+        },
+        {
+          "id": "D",
+          "text": "Layers\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "How does a neural network model get better at making predictions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By randomly guessing outcomes"
+        },
+        {
+          "id": "B",
+          "text": "By manually entering all possible outcomes"
+        },
+        {
+          "id": "C",
+          "text": "By adjusting weights and biases through experience with data"
+        },
+        {
+          "id": "D",
+          "text": "By limiting itself to a single layer of nodes\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is a characteristic of deep learning neural networks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They have a single input node."
+        },
+        {
+          "id": "B",
+          "text": "They only handle numeric data."
+        },
+        {
+          "id": "C",
+          "text": "They use multiple layers of interconnected nodes."
+        },
+        {
+          "id": "D",
+          "text": "They never change their initial biases.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "True or false: Neural networks always clearly explain why they reached a specific conclusion.",
+      "options": [
+        {
+          "id": "A",
+          "text": "True"
+        },
+        {
+          "id": "B",
+          "text": "False\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "For AI training to be considered deep learning, what does its neural network need more of?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodes"
+        },
+        {
+          "id": "B",
+          "text": "Weights"
+        },
+        {
+          "id": "C",
+          "text": "Layers"
+        },
+        {
+          "id": "D",
+          "text": "Inputs\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "True or false: The values of weights and biases in a trained neural network usually have an obvious connection to the inputs.",
+      "options": [
+        {
+          "id": "A",
+          "text": "True"
+        },
+        {
+          "id": "B",
+          "text": "False\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
     }
   ]
 }

@@ -1,0 +1,254 @@
+### Unit 1: Get Started with Artificial Intelligence ### ###
+
+### Summary ###
+### Summary ###
+Summary
+AI Definition: AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.
+Challenge in Defining AI: Difficulties arise due to human-centric perspectives, varying intelligence among humans and animals, and fictional portrayals of AI.
+Specialized AI: Currently, AI systems excel in specialized tasks rather than generalized intelligence.
+Main AI Capabilities:
+Numeric Predictions: Forecasting outcomes like weather, sales, or risk levels.
+Classifications: Sorting data into categories, such as detecting fraud or classifying images.
+Robotic Navigation: Navigating dynamic environments, applied in autonomous driving, logistics optimization, and robotic movements.
+Language Processing (NLP): Interpreting and generating natural language, enabling translations, summaries, and conversations.
+
+### Questions ###
+### Questions ###
+### Unit 2: Turn Data into Models ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Artificial Intelligence models are increasingly built using Machine Learning (ML)—training systems with large amounts of data instead of relying solely on manually programmed rules (hand-coded algorithms). Handcrafted algorithms are limited because some problems are too complex or have too many exceptions to capture effectively in a simple rule-based system.
+Machine Learning involves training models by adjusting numerical "weights" assigned to inputs based on historical data. Through repeated guess-and-check cycles, the computer improves its predictions by discovering which factors (inputs) most significantly impact the outcomes (outputs).
+There are two main types of data:
+Structured Data: Clearly organized and labeled data, suitable for supervised learning, where input-output pairs are known and verifiable.
+Unstructured Data: Data without explicit labels or organization (such as images or text), suitable for unsupervised learning, where AI identifies patterns without predefined outcomes.
+Key Takeaways:
+Machine Learning vs. Algorithms: ML trains systems using data, whereas traditional algorithms explicitly program rules.
+Complexity Limits Hand-coding: Many tasks involve numerous unknown or complex rules, making ML necessary.
+Structured vs. Unstructured Data:
+Structured data (tables, labeled spreadsheets) enables supervised learning.
+Unstructured data (images, text) is used for unsupervised learning.
+
+### Questions ###
+### Questions ###
+### Unit 3: Understand the Need for Neural Networks ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Neural networks allow AI systems to recognize complex relationships between input data and outcomes, crucial for sophisticated predictions and classifications that match human-like reasoning. They enable computers to discover what matters in varied scenarios, connecting real-world human needs (easier, faster tasks with fewer errors) to intelligent solutions, such as natural language understanding.
+Initially, simple AI models assign a single importance (weight) to each input, but this oversimplifies real-world scenarios. For example, rain's impact on shopping depends heavily on whether it's a weekday or weekend. Neural networks solve this by creating multiple interconnected nodes to represent unique combinations of inputs (weekend, time, rain).
+By combining these scenarios into a single model with multiple nodes, each scenario can be assigned a bias (adjustment) based on its unique influence, making predictions more precise.
+Each node adjusts the final output based on biases and additional weights. This interconnected structure, with nodes and layers, forms a neural network.
+Adding more layers and nodes to neural networks creates "deep learning," enabling the AI to discover hidden relationships by making multiple leaps of inference, similar to human reasoning.
+Designing neural networks involves choosing the number of nodes, layers, and specialized mathematical methods tailored to the task. Although powerful, neural networks are often "black boxes," making predictions without clear explanations for each connection or weight's significance.
+Key Takeaways:
+Neural networks allow AI to handle complex, scenario-dependent data relationships.
+Simple AI models with one-weight-per-input oversimplify real-world scenarios.
+Neural networks use interconnected nodes and layers, enabling more precise predictions.
+Deep learning refers to neural networks with multiple layers, capable of discovering hidden patterns.
+Neural networks are often "black boxes," making decisions without clear explanations for each connection.
+
+### Questions ###
+### Questions ###
+### Unit 4: Improve Customer Service Using Artificial Intelligence ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Artificial Intelligence (AI) significantly enhances customer service by automating routine tasks and empowering service agents and managers with predictive insights. At its core, AI in customer service utilizes machine learning, which processes extensive data to generate insights and solutions without extensive programming. Essential AI technologies in customer service include Natural Language Understanding (NLU), Natural Language Processing (NLP), Named Entity Recognition (NER), and Deep Learning.
+Effective AI implementation depends critically on data quality (data hygiene). Accurate, well-organized data leads to seamless and beneficial AI deployments, while poor data management requires extensive manual cleanup.
+Salesforce Einstein for Service leverages AI to streamline customer service processes, increase efficiency, and personalize customer interactions. Key Einstein functionalities include Einstein Bots for automated case resolution, Einstein Agent for improved agent productivity, Einstein Discovery for predictive insights, Einstein Vision for automated image classification in field service, and Einstein Language for text sentiment and intent analysis.
+AI benefits extend beyond agents to service managers and customers, offering personalized, efficient, and rapid issue resolution. Moreover, AI supports broader business goals by enhancing sales and marketing effectiveness through improved lead prioritization, predictive analytics, and personalized messaging.
+Key Takeaways:
+AI Value: Enhances productivity, accuracy, and personalization in customer service.
+Machine Learning: Automatically generates insights from data without extensive manual programming.
+Data Hygiene: Critical for effective AI deployment; accurate data yields better outcomes.
+Einstein for Service: Automates routine tasks, boosts agent productivity, provides predictive insights, and enhances customer experiences.
+Broad Business Impact: AI benefits sales and marketing teams through personalized customer experiences, efficient prioritization, and improved forecasting.
+
+### Questions ###
+### Questions ###
+7. What is one way AI improves the customer experience?
+A) By automating agent breaks
+B) By ignoring customer history
+C) By providing personalized and rapid issue resolution
+D) By increasing manual data entry
+Answer: C
+8. Salesforce Einstein assists customer service agents by making self-service easier, deflecting routine requests, and:
+A) Mediating the relationship between agents and managers
+B) Accelerating issue resolution
+C) Reminding agents to take frequent breaks
+D) A and C
+Answer: B
+9. Einstein Bots help agents by:
+A) Automatically resolving top customer issues
+B) Collecting qualified customer information
+C) Telling agents what to do
+D) A and B
+Answer: D
+
+### Unit 5: Understand Why Chatbots Matter to the Contact Center ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Chatbots are applications designed to automate routine tasks through conversational interactions, significantly improving customer service efficiency. By resolving simple, repetitive inquiries, chatbots free human agents to address complex, high-value customer issues. Key chatbot benefits include quicker resolution times, lower operational costs, enhanced customer satisfaction, and increased contact center productivity.
+Salesforce Einstein Bots leverage Artificial Intelligence (AI), specifically Natural Language Understanding (NLU), to conduct meaningful conversations, gather necessary information, and resolve customer issues efficiently. They integrate seamlessly with CRM systems, enhancing data accessibility and user experience. Einstein Bots are easy to configure using Einstein Bot Builder, a user-friendly tool enabling chatbot creation without coding.
+Essential chatbot qualities for effective customer interaction include transparency, personability, thoroughness, and iterative improvement. Chatbots must clearly indicate their capabilities, align with brand voice, provide comprehensive information, and continuously evolve through feedback and data analysis.
+Key Takeaways:
+Chatbot Value: Automate routine inquiries, improving customer service efficiency and enabling agents to handle complex issues.
+Einstein Bots Capabilities: CRM-connected, using NLU for effective communication and issue resolution.
+Chatbot Characteristics: Transparent, personable, thorough, iterative, and seamlessly integrated with agents and systems.
+Ease of Deployment: Salesforce's Einstein Bot Builder simplifies chatbot setup without requiring coding skills.
+
+### Questions ###
+### Questions ###
+6. What is a chatbot?
+A) An application that can seamlessly hand off complex cases to agents
+B) A new type of call center manager
+C) An application that can carry on a chat conversation with a customer
+D) A and C
+Answer: D
+7. How do Einstein Bots collect and qualify information in a conversational manner?
+A) Using natural language understanding
+B) Using natural neural skills
+C) Taking extensive surveys
+D) Using a style guide
+Answer: A
+8. How do chatbots improve the customer service experience for everyone involved?
+A) By resolving low-level cases, saving time, and speeding resolution for customers
+B) By reporting underperformance to human resources promptly
+C) By using natural language understanding to help customers get refunds
+D) By using natural algorithms to coordinate website traffic
+
+### Unit 6: Explore the Capabilities of Generative AI ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Generative AI is a subset of artificial intelligence that can produce original and creative content like text, images, and sounds. It became popularized through AI tools like ChatGPT, capable of having human-like conversations, prompting widespread public interest.
+Generative AI models, especially Large Language Models (LLMs), are trained on extensive datasets, such as internet pages, allowing them to learn language intricacies in great detail. These models empower AI systems to perform various sophisticated tasks, including summarization, translation, error correction, question answering, guided image generation, and text-to-speech conversion.
+Importantly, the content produced by generative AI is based on sophisticated predictions derived from large datasets rather than actual thought or intent.
+Key Takeaways:
+Generative AI creates new, original content including text, images, and audio.
+Large Language Models (LLMs) are AI models trained on massive text datasets, enabling advanced language tasks.
+Common capabilities of generative AI:
+Summarization: Condensing large amounts of text into concise summaries.
+Translation: Converting text accurately between languages.
+Error Correction: Identifying and fixing grammatical or spelling errors.
+Question Answering: Responding contextually and accurately to queries.
+Guided Image Generation: Creating or expanding images based on textual descriptions.
+Text-to-Speech: Converting text into realistic, spoken audio.
+Generative AI responses represent predictions, not genuine opinions or thought processes.
+
+### Questions ###
+### Questions ###
+7. What is it called when AI interprets everyday language?
+A) Slang translation
+B) Text-to-task
+C) Intention prediction
+D) Natural language processing
+Answer: D
+8. If you ask a generative AI what its favorite color is, and it responds “blue,” this is an example of what?
+A) Sentience
+B) Opinion
+C) Prediction
+D) Randomness
+Answer: C
+7. Unit 7: Understand the Technology Ecosystem of Generative AI
+8. Unit 8: Explore Generative AI Models and Their Business Impact
+9. Unit 9: Generative AI vs Predictive AI – The Creative and the Analytical
+10. Unit 10: Get to Know Natural Language Processing
+11. Unit 11: Learn About Natural Language Parsing
+3. What is the difference between stemming and lemmatization?
+A) Stemming finds parts of speech, while lemmatization finds named entities
+B) Stemming removes punctuation; lemmatization finds sentence structure
+C) Stemming cuts words to a rough root form; lemmatization finds accurate root words based on context
+D) Stemming creates new words; lemmatization removes duplicates
+Answer: C
+4. What is Named Entity Recognition (NER) used for in NLP?
+A) Predicting numeric outcomes
+B) Classifying grammar types
+C) Identifying names, places, and organizations in text
+D) Counting word frequency
+Answer: C
+5. Why is context analysis important in NLP?
+A) It makes tokenization more efficient
+B) It enables compression of output
+C) It helps interpret meaning based on the broader situation
+D) It ensures longer sentences are broken down
+Answer: C
+6. What is the goal of intent analysis in NLP?
+A) To detect spelling mistakes
+B) To analyze tone and emotion
+C) To determine the purpose or goal behind a user's words
+D) To replace missing punctuation
+Answer: C
+7. Which parsing method breaks large blocks of text into smaller, meaningful sections?
+A) Lemmatization
+B) Segmentation
+C) Morphology
+D) Sentiment analysis
+1. Assumptions
+2. Training Data
+3. Model Design
+4. Human Intervention (or Lack Thereof)
+15. Unit 15: Create Responsible Generative AI
+
+### Unit 16: Learn About Einstein Bots ### ###
+
+### Summary ###
+### Summary ###
+Summary:
+Einstein Bots are Salesforce's solution for automating customer service through conversational AI. A chatbot is an application that simulates human conversation, allowing users to interact with a computer system via text or voice. While not all chatbots are powered by AI, Einstein Bots can use Natural Language Understanding (NLU) to provide smart, automated responses. The key to a successful chatbot lies in proper planning and realistic expectations, especially around the types of interactions it can handle.
+Key Takeaways:
+A chatbot simulates a human conversation, typically through text or voice.
+Chatbots help deflect simple support cases, reducing agent load and wait times.
+NLU-powered bots can intelligently understand and respond to customer questions.
+Not all chatbots use AI—some rely only on predefined rules or scripts.
+Proper planning includes identifying FAQs, naming the bot, designing greetings, and defining escalation paths.
+Salesforce recommends creating bots only after setting up service channels and case management, to ensure fallback support is in place.
+Admins and agents should collaborate to build relevant responses and anticipate customer phrasing.
+Einstein Bots can connect with knowledge bases (Lightning or Classic Knowledge) to provide better responses.
+Chatbots support branding and personalization, e.g., naming the bot ("Solar Sammy") and customizing chat window behavior.
+
+### Questions ###
+What is a chatbot?
+A) A database that tracks words in and out
+B) A robot that simulates people talking
+C) An application that simulates human conversation
+D) Software that records human conversations and plays them back
+E) An application that creates dialog for machines
+Answer: C
+
+Which of the following are benefits of chatbots?
+A) Case deflection, shorter wait times, and intelligent responses with NLU
+B) Saved time for customers, the display of useful content, and more efficient distribution processes
+C) Intelligent responses, quickly created cases, and use of stored data
+D) Reduced wait times, efficient service issue queues, and use of NUL
+E) Case deflection, intelligent agents, and scripted conversations
+Answer: A
+What role does Natural Language Understanding (NLU) play in chatbot functionality?
+A) It helps bots connect to phone systems.
+B) It enables bots to store customer data.
+C) It allows bots to understand and respond to human language more accurately.
+D) It defines the branding of a chatbot.
+Answer: C
+Why is it important to set up case management and service channels before enabling Einstein Bots?
+A) So bots can run faster.
+B) To ensure fallback options are available when a bot cannot resolve an issue.
+C) Because bots cannot function without phone support.
+D) To meet Salesforce licensing requirements.
+Answer: B
+Which of the following is part of the planning process for launching a chatbot?
+A) Buying separate hosting services for the bot
+B) Creating a separate Salesforce org for bot setup
+C) Identifying common customer issues and setting bot greetings
+D) Setting up external voice integration first
+Answer: C
+r
+
+### Questions ###

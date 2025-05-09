@@ -1,21 +1,7 @@
-### Unit 16: Learn About Einstein Bots ###
+UNIT 16: Learn About Einstein Bots
+==================================================
 
-### Summary ###
-Einstein Bots use AI to automate customer conversations. This unit explores chatbot setup, planning, natural language understanding, and escalation logic. Bots reduce support loads and deliver consistent, branded service interactions.
+SUMMARY:
+Einstein Bots are Salesforce's solution for automating customer service through conversational AI. A chatbot is an application that simulates human conversation, allowing users to interact with a computer system via text or voice. While not all chatbots are powered by AI, Einstein Bots can use Natural Language Understanding (NLU) to provide smart, automated responses. The key to a successful chatbot lies in proper planning and realistic expectations, especially around the types of interactions it can handle.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
-
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
-
-### End of Unit 16 ###
+QUESTIONS:

@@ -1,29 +1,192 @@
 {
   "unit_number": 8,
   "title": "Explore Generative AI Models and Their Business Impact",
-  "summary": "This unit outlines real-world impacts of generative AI across industries such as marketing, customer support, and software engineering. It covers key models, risks, and use cases that demonstrate how gen AI is transforming work.",
+  "summary": "- **Model Types**:\n  - **GANs (Generative Adversarial Networks)**: Use generator and discriminator in competition to produce realistic content.\n  - **Transformers**: Process sequential data for context-rich output generation.\n  - **VAEs (Variational Autoencoders)**: Compress and reconstruct data to generate varied outputs.\n  - **Autoregressive Models**: Generate sequences by predicting the next element from previous ones.\n  - **Diffusion Models**: Learn to reverse noise processes to generate detailed data.\n- **Success Requirements**: Data quality, computational power, model design, evaluation metrics, iteration, and ethical use.\n- **Business Applications**: Revolutionizing industries such as pharmaceuticals, retail, entertainment, finance, automotive, and technology.\n- **Popular Tools**: Include ChatGPT, Claude, Gemini, DALL-E 3, Midjourney, Stable Diffusion, and more.\n- **Ethical Considerations**: Hallucinations, confident failures, data bias, misinformation, and sustainability concerns.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "What is the main function of a GAN in generative AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It optimizes cloud storage algorithms"
+        },
+        {
+          "id": "B",
+          "text": "It translates languages"
+        },
+        {
+          "id": "C",
+          "text": "It uses a generator and discriminator to produce realistic outputs"
+        },
+        {
+          "id": "D",
+          "text": "It visualizes training data in dashboards\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "Why are transformers used for language-based tasks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They operate entirely without training"
+        },
+        {
+          "id": "B",
+          "text": "They process context across sequences of data"
+        },
+        {
+          "id": "C",
+          "text": "They generate only binary results"
+        },
+        {
+          "id": "D",
+          "text": "They rely solely on image data\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which model type predicts the next element in a sequence based on prior elements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Diffusion"
+        },
+        {
+          "id": "B",
+          "text": "Transformer"
+        },
+        {
+          "id": "C",
+          "text": "Autoregressive"
+        },
+        {
+          "id": "D",
+          "text": "VAE\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is the purpose of the Fréchet Inception Distance (FID) metric?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To optimize transformer speed"
+        },
+        {
+          "id": "B",
+          "text": "To calculate user engagement"
+        },
+        {
+          "id": "C",
+          "text": "To evaluate quality of generated images"
+        },
+        {
+          "id": "D",
+          "text": "To measure cloud compute cost\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is a key benefit of using generative AI in the automotive industry?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generating vehicle insurance reports"
+        },
+        {
+          "id": "B",
+          "text": "Automating physical repairs"
+        },
+        {
+          "id": "C",
+          "text": "Simulating vehicle components to reduce prototype needs"
+        },
+        {
+          "id": "D",
+          "text": "Creating legal documentation for recalls\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What are some common ethical concerns with generative AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excessive documentation and overtraining"
+        },
+        {
+          "id": "B",
+          "text": "Compliance with open-source licenses"
+        },
+        {
+          "id": "C",
+          "text": "Hallucinations, biased outputs, misinformation"
+        },
+        {
+          "id": "D",
+          "text": "Too many models being open-sourced\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which tool focuses on ethical AI conversations and safe interactions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ChatGPT"
+        },
+        {
+          "id": "B",
+          "text": "Claude"
+        },
+        {
+          "id": "C",
+          "text": "Stable Diffusion"
+        },
+        {
+          "id": "D",
+          "text": "DALL-E 3\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "What is the main environmental challenge of generative AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI training slows internet speeds"
+        },
+        {
+          "id": "B",
+          "text": "It disrupts rural power grids"
+        },
+        {
+          "id": "C",
+          "text": "Its carbon footprint and energy usage are high"
+        },
+        {
+          "id": "D",
+          "text": "It leads to less demand for cloud storage\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     }
   ]
 }

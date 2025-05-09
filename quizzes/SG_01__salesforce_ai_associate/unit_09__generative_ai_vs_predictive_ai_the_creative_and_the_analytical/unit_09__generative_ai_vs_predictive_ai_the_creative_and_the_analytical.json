@@ -1,0 +1,192 @@
+{
+  "unit_number": 9,
+  "title": "Generative AI vs Predictive AI – The Creative and the Analytical",
+  "summary": "- **Generative AI**: Focuses on creating new content—text, images, audio, and code—using models like GANs, transformers, and diffusion networks.\n- **Predictive AI**: Designed to forecast future outcomes based on historical data patterns, used in business analytics, finance, fraud detection, and healthcare.\n- **Use Cases Comparison**:\n  - **Generative**: Text generation, image synthesis, video creation, music composition, product design, and personalization.\n  - **Predictive**: Demand forecasting, customer behavior prediction, fraud detection, financial modeling, and marketing optimization.\n- **Training Requirements**: Generative AI requires high-quality, diverse data; Predictive AI requires well-labeled historical data.\n- **Limitations**: Generative AI may hallucinate or carry bias; Predictive AI may lack creativity and struggle with novel scenarios.\n- **Tools**:\n  - **Generative**: ChatGPT, Copilot, AlphaCode, DALL·E 3, Claude, Stable Diffusion, etc.\n  - **Predictive**: Tableau, Marketing Evolution (MEVO), Improvado, etc.\n- **Ethical Considerations**: Both raise concerns around data privacy, transparency, bias, and environmental impact.",
+  "key_takeaways": [],
+  "questions": [
+    {
+      "question": "What is the primary goal of generative AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To make predictions based on historical data"
+        },
+        {
+          "id": "B",
+          "text": "To analyze spreadsheet formulas"
+        },
+        {
+          "id": "C",
+          "text": "To generate new content such as images or text"
+        },
+        {
+          "id": "D",
+          "text": "To store large datasets in memory\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which of the following is a typical use case for predictive AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Writing a novel"
+        },
+        {
+          "id": "B",
+          "text": "Generating marketing slogans"
+        },
+        {
+          "id": "C",
+          "text": "Forecasting product demand"
+        },
+        {
+          "id": "D",
+          "text": "Creating animated characters\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which model architecture is commonly used in generative AI to create realistic images?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Decision tree"
+        },
+        {
+          "id": "B",
+          "text": "Convolutional neural network"
+        },
+        {
+          "id": "C",
+          "text": "Generative Adversarial Network (GAN)"
+        },
+        {
+          "id": "D",
+          "text": "Regression model\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is one limitation of predictive AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It can't process any numerical data"
+        },
+        {
+          "id": "B",
+          "text": "It may miss novel scenarios not present in the training data"
+        },
+        {
+          "id": "C",
+          "text": "It creates unrealistic results with hallucinated content"
+        },
+        {
+          "id": "D",
+          "text": "It only works with GANs\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "What is a common benefit of combining generative and predictive AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster spreadsheet calculations"
+        },
+        {
+          "id": "B",
+          "text": "Reducing training data size"
+        },
+        {
+          "id": "C",
+          "text": "Supporting innovation and forecasting together"
+        },
+        {
+          "id": "D",
+          "text": "Generating real-time hardware drivers\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which of these tools is primarily used for predictive analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "DALL·E 3"
+        },
+        {
+          "id": "B",
+          "text": "Midjourney"
+        },
+        {
+          "id": "C",
+          "text": "Improvado"
+        },
+        {
+          "id": "D",
+          "text": "ChatGPT\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which best describes the learning process of predictive AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It analyzes sound waves to produce music"
+        },
+        {
+          "id": "B",
+          "text": "It learns from patterns in real-time sensor data only"
+        },
+        {
+          "id": "C",
+          "text": "It studies historical data to predict future events"
+        },
+        {
+          "id": "D",
+          "text": "It copies content from other AI models\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which type of AI is more focused on creative outputs like storytelling or artwork?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Predictive AI"
+        },
+        {
+          "id": "B",
+          "text": "Diagnostic AI"
+        },
+        {
+          "id": "C",
+          "text": "Generative AI"
+        },
+        {
+          "id": "D",
+          "text": "Reactive AI\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    }
+  ]
+}

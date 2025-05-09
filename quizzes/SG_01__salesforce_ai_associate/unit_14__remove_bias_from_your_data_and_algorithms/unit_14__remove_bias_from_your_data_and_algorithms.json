@@ -1,29 +1,7 @@
 {
   "unit_number": 14,
   "title": "Remove Bias from Your Data and Algorithms",
-  "summary": "Removing bias from data and models requires proactive review and cultural awareness. This unit introduces strategies like premortems, diverse data sourcing, community feedback, and ongoing model evaluation to reduce unfairness and build inclusive AI.",
-  "questions": [
-    {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
-    },
-    {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
-    }
-  ]
+  "summary": "AI systems, while powerful, are only as good as the data and design choices behind them. Removing bias is not just a technical challenge—it requires intentional planning, cultural awareness, and collaboration. Biases in AI can result in unfair or inaccurate outcomes, especially when certain groups are overrepresented or excluded from datasets. Teams must recognize that biases stem from both data and human assumptions, and that systems must be evaluated continuously as social values evolve. Conducting premortems, identifying problematic patterns early, and building inclusive review processes are all essential strategies for ethical AI development.",
+  "key_takeaways": [],
+  "questions": []
 }

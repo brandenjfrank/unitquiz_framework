@@ -1,21 +1,7 @@
-### Unit 13: Recognize Bias in Artificial Intelligence ###
+UNIT 13: Recognize Bias in Artificial Intelligence
+==================================================
 
-### Summary ###
-Bias in AI arises from assumptions, data, model design, or lack of oversight. This unit explores types of bias—measurement, confirmation, automation—and explains how to detect, prevent, and correct these throughout the AI lifecycle.
+SUMMARY:
+Bias in AI can lead to inaccurate, unfair, or harmful outcomes if not properly identified and mitigated. Bias enters through human assumptions, incomplete or skewed training data, flawed model design, or lack of diverse team input. Understanding how these biases manifest — from measurement to automation to survivorship bias — is critical to designing fair, ethical AI systems. Legal compliance is necessary but not always sufficient; ethical considerations must guide the use of protected data categories. Organizations must actively detect and remove bias while giving stakeholders feedback mechanisms to reduce harm and build trust.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
-
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
-
-### End of Unit 13 ###
+QUESTIONS:

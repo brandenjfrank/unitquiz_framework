@@ -1,21 +1,88 @@
-### Unit 4: Improve Customer Service Using Artificial Intelligence ###
+UNIT 4: Improve Customer Service Using Artificial Intelligence
+==================================================
 
-### Summary ###
-Customer service benefits greatly from AI. AI-powered tools like chatbots and automated workflows reduce wait times, improve satisfaction, and scale service without increasing costs. This unit shows how AI understands sentiment, predicts intent, and delivers faster solutions.
+SUMMARY:
+- **AI in Customer Service**: Significantly enhances customer service by automating routine tasks and providing predictive insights.
+- **Core Technologies**: Machine learning, Natural Language Understanding (NLU), Natural Language Processing (NLP), Named Entity Recognition (NER), and Deep Learning.
+- **Data Hygiene**: Effective AI implementation depends critically on data quality; accurate data leads to seamless deployments.
+- **Salesforce Einstein Components**:
+  - **Einstein Bots**: Automated case resolution
+  - **Einstein Agent**: Improved agent productivity
+  - **Einstein Discovery**: Predictive insights
+  - **Einstein Vision**: Automated image classification in field service
+  - **Einstein Language**: Text sentiment and intent analysis
+- **Broader Benefits**: Enhances sales and marketing effectiveness through improved lead prioritization and personalized messaging.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. Why is maintaining good data hygiene crucial when deploying AI?
+   A) It reduces the amount of data needed.
+   B) It simplifies the AI coding required.
+   C) It ensures AI outcomes are accurate and useful.
+   D) It prevents AI from using machine learning.
+   - **Answer: C**
+   Answer: C
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. Einstein Bots improve customer service by:
+   A) Resolving complex, human-only issues.
+   B) Automatically handling routine customer requests.
+   C) Limiting agent interactions to email only.
+   D) Increasing complexity for customers.
+   - **Answer: B**
+   Answer: B
 
-### End of Unit 4 ###
+3. Which AI technology focuses specifically on analyzing and understanding human language as naturally spoken?
+   A) Named Entity Recognition (NER)
+   B) Natural Language Processing (NLP)
+   C) Deep Learning
+   D) Robotic Navigation
+   - **Answer: B**
+   Answer: B
+
+4. Einstein Vision for Field Service primarily helps:
+   A) Translate languages in real-time.
+   B) Classify images to speed on-site issue resolution.
+   C) Analyze customer sentiment in emails.
+   D) Generate sales forecasts.
+   - **Answer: B**
+   Answer: B
+
+5. Which of these is NOT mentioned as a direct benefit of AI in customer service?
+   A) Increased agent productivity
+   B) Improved customer personalization
+   C) Enhanced manager insights
+   D) Automatic employee scheduling
+   - **Answer: D**
+   Answer: D
+
+6. Salesforce Einstein supports customer service managers by:
+   A) Reducing the need for customer interactions.
+   B) Providing predictive insights and strategic recommendations.
+   C) Automating employee performance reviews.
+   D) Limiting customer communication channels.
+   - **Answer: B**
+   Answer: B
+
+7. What is one way AI improves the customer experience?
+   A) By automating agent breaks
+   B) By ignoring customer history
+   C) By providing personalized and rapid issue resolution
+   D) By increasing manual data entry
+   - **Answer: C**
+   Answer: C
+
+8. Salesforce Einstein assists customer service agents by making self-service easier, deflecting routine requests, and:
+   A) Mediating the relationship between agents and managers
+   B) Accelerating issue resolution
+   C) Reminding agents to take frequent breaks
+   D) A and C
+   - **Answer: B**
+   Answer: B
+
+9. Einstein Bots help agents by:
+   A) Automatically resolving top customer issues
+   B) Collecting qualified customer information
+   C) Telling agents what to do
+   D) A and B
+   - **Answer: D**
+   Answer: D
+

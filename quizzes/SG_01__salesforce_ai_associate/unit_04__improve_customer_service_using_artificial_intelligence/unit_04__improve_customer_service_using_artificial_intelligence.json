@@ -1,29 +1,215 @@
 {
   "unit_number": 4,
   "title": "Improve Customer Service Using Artificial Intelligence",
-  "summary": "Customer service benefits greatly from AI. AI-powered tools like chatbots and automated workflows reduce wait times, improve satisfaction, and scale service without increasing costs. This unit shows how AI understands sentiment, predicts intent, and delivers faster solutions.",
+  "summary": "- **AI in Customer Service**: Significantly enhances customer service by automating routine tasks and providing predictive insights.\n- **Core Technologies**: Machine learning, Natural Language Understanding (NLU), Natural Language Processing (NLP), Named Entity Recognition (NER), and Deep Learning.\n- **Data Hygiene**: Effective AI implementation depends critically on data quality; accurate data leads to seamless deployments.\n- **Salesforce Einstein Components**:\n  - **Einstein Bots**: Automated case resolution\n  - **Einstein Agent**: Improved agent productivity\n  - **Einstein Discovery**: Predictive insights\n  - **Einstein Vision**: Automated image classification in field service\n  - **Einstein Language**: Text sentiment and intent analysis\n- **Broader Benefits**: Enhances sales and marketing effectiveness through improved lead prioritization and personalized messaging.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "Why is maintaining good data hygiene crucial when deploying AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It reduces the amount of data needed."
+        },
+        {
+          "id": "B",
+          "text": "It simplifies the AI coding required."
+        },
+        {
+          "id": "C",
+          "text": "It ensures AI outcomes are accurate and useful."
+        },
+        {
+          "id": "D",
+          "text": "It prevents AI from using machine learning.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "Einstein Bots improve customer service by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Resolving complex, human-only issues."
+        },
+        {
+          "id": "B",
+          "text": "Automatically handling routine customer requests."
+        },
+        {
+          "id": "C",
+          "text": "Limiting agent interactions to email only."
+        },
+        {
+          "id": "D",
+          "text": "Increasing complexity for customers.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which AI technology focuses specifically on analyzing and understanding human language as naturally spoken?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Named Entity Recognition (NER)"
+        },
+        {
+          "id": "B",
+          "text": "Natural Language Processing (NLP)"
+        },
+        {
+          "id": "C",
+          "text": "Deep Learning"
+        },
+        {
+          "id": "D",
+          "text": "Robotic Navigation\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Einstein Vision for Field Service primarily helps:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Translate languages in real-time."
+        },
+        {
+          "id": "B",
+          "text": "Classify images to speed on-site issue resolution."
+        },
+        {
+          "id": "C",
+          "text": "Analyze customer sentiment in emails."
+        },
+        {
+          "id": "D",
+          "text": "Generate sales forecasts.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which of these is NOT mentioned as a direct benefit of AI in customer service?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increased agent productivity"
+        },
+        {
+          "id": "B",
+          "text": "Improved customer personalization"
+        },
+        {
+          "id": "C",
+          "text": "Enhanced manager insights"
+        },
+        {
+          "id": "D",
+          "text": "Automatic employee scheduling\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "question": "Salesforce Einstein supports customer service managers by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing the need for customer interactions."
+        },
+        {
+          "id": "B",
+          "text": "Providing predictive insights and strategic recommendations."
+        },
+        {
+          "id": "C",
+          "text": "Automating employee performance reviews."
+        },
+        {
+          "id": "D",
+          "text": "Limiting customer communication channels.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "What is one way AI improves the customer experience?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By automating agent breaks"
+        },
+        {
+          "id": "B",
+          "text": "By ignoring customer history"
+        },
+        {
+          "id": "C",
+          "text": "By providing personalized and rapid issue resolution"
+        },
+        {
+          "id": "D",
+          "text": "By increasing manual data entry\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Salesforce Einstein assists customer service agents by making self-service easier, deflecting routine requests, and:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mediating the relationship between agents and managers"
+        },
+        {
+          "id": "B",
+          "text": "Accelerating issue resolution"
+        },
+        {
+          "id": "C",
+          "text": "Reminding agents to take frequent breaks"
+        },
+        {
+          "id": "D",
+          "text": "A and C\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Einstein Bots help agents by:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Automatically resolving top customer issues"
+        },
+        {
+          "id": "B",
+          "text": "Collecting qualified customer information"
+        },
+        {
+          "id": "C",
+          "text": "Telling agents what to do"
+        },
+        {
+          "id": "D",
+          "text": "A and B\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
     }
   ]
 }

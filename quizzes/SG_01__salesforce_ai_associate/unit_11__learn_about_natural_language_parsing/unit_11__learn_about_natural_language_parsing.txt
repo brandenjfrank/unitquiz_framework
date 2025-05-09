@@ -1,21 +1,86 @@
-### Unit 11: Learn About Natural Language Parsing ###
+UNIT 11: Learn About Natural Language Parsing
+==================================================
 
-### Summary ###
-Natural Language Parsing helps AI analyze human language by breaking it into parts and interpreting structure and meaning. Techniques include tokenization, lemmatization, part-of-speech tagging, and entity recognition. Analysis tools assess sentiment, intent, and context.
+SUMMARY:
+- **Definition**: Natural Language Parsing refers to techniques used by AI systems to analyze and derive meaning from human language.
+- **Elements of Natural Language**:
+  - **Vocabulary**: The words we use
+  - **Grammar**: Rules governing sentence structure
+  - **Syntax**: Word combinations according to grammar
+  - **Semantics**: Meaning of words and phrases
+  - **Pragmatics**: Context and intent behind language use
+  - **Discourse**: Units larger than single phrases/sentences
+  - **Phonetics**: Sounds made during communication
+  - **Morphology**: How word parts combine to form new words
+- **Parsing Techniques**:
+  - **Segmentation**: Breaking text into meaningful sections
+  - **Tokenization**: Splitting text into words or tokens
+  - **Stemming**: Reducing words to root forms (less accurate)
+  - **Lemmatization**: Reducing words to base form using grammar context (more accurate)
+  - **Part-of-Speech (POS) Tagging**: Assigning roles to words
+  - **Named Entity Recognition (NER)**: Identifying people, places, dates, etc.
+  - **Semantic Parsing**: Extracting meaning through grammatical analysis
+- **Analysis Techniques**:
+  - **Sentiment Analysis**: Determining emotional tone
+  - **Intent Analysis**: Identifying purpose behind text
+  - **Context/Discourse Analysis**: Using surrounding information to resolve ambiguity
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. Which NLP technique uses the part of speech to more accurately find the root of a word?
+   A) Segmentation
+   B) Tokenization
+   C) Stemming
+   D) Lemmatization
+   - **Answer: D**
+   Answer: D
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. What is the term for finding the underlying structure of text in NLP?
+   A) Parts of speech
+   B) Parsing
+   C) Morphology
+   D) Sentiment
+   - **Answer: B**
+   Answer: B
 
-### End of Unit 11 ###
+3. What is the difference between stemming and lemmatization?
+   A) Stemming finds parts of speech, while lemmatization finds named entities
+   B) Stemming removes punctuation; lemmatization finds sentence structure
+   C) Stemming cuts words to a rough root form; lemmatization finds accurate root words based on context
+   D) Stemming creates new words; lemmatization removes duplicates
+   - **Answer: C**
+   Answer: C
+
+4. What is Named Entity Recognition (NER) used for in NLP?
+   A) Predicting numeric outcomes
+   B) Classifying grammar types
+   C) Identifying names, places, and organizations in text
+   D) Counting word frequency
+   - **Answer: C**
+   Answer: C
+
+5. Why is context analysis important in NLP?
+   A) It makes tokenization more efficient
+   B) It enables compression of output
+   C) It helps interpret meaning based on the broader situation
+   D) It ensures longer sentences are broken down
+   - **Answer: C**
+   Answer: C
+
+6. What is the goal of intent analysis in NLP?
+   A) To detect spelling mistakes
+   B) To analyze tone and emotion
+   C) To determine the purpose or goal behind a user's words
+   D) To replace missing punctuation
+   - **Answer: C**
+   Answer: C
+
+7. Which parsing method breaks large blocks of text into smaller, meaningful sections?
+   A) Lemmatization
+   B) Segmentation
+   C) Morphology
+   D) Sentiment analysis
+   - **Answer: B**
+
+# Salesforce AI Associate Study Guide
+   Answer: B
+

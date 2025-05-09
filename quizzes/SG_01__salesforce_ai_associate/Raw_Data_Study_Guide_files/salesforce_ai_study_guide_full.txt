@@ -1,0 +1,64 @@
+### Unit 1 : Get Started with Artificial Intelligence ###
+### Summary ###
+AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.
+Defining AI is difficult due to human-centric perspectives and fictional portrayals.
+Specialized AI excels at numeric prediction, classification, robotic navigation, and language processing.
+
+### Questions ###
+Question 1: Why is defining AI challenging?
+A) AI systems always think exactly like humans.
+B) Our views are distorted by science fiction and human-centered biases.
+C) AI is already perfect and requires no definition.
+D) AI definitions are strictly regulated by law.
+Answer: B
+
+Question 2: Which of the following is NOT one of the specialized capabilities of AI mentioned?
+A) Numeric predictions
+B) Classifications
+C) Robotic navigation
+D) General emotional understanding
+Answer: D
+
+...
+
+### Unit 2 : Turn Data into Models ###
+### Summary ###
+Artificial Intelligence models are increasingly built using Machine Learning (ML)—training systems with data rather than manually coded rules.
+ML adjusts weights based on historical data. Structured data supports supervised learning, while unstructured data supports unsupervised learning.
+
+### Questions ###
+Question 1: Why is Machine Learning sometimes preferable to hand-coded algorithms?
+A) Because ML requires less math.
+B) Because ML is always faster.
+C) Because some tasks have too many rules and exceptions to manually code.
+D) Because laws mandate the use of ML.
+Answer: C
+
+Question 2: In supervised learning, AI systems:
+A) Try to find patterns without knowing the desired outcome.
+B) Have clearly labeled input-output pairs to verify predictions.
+C) Do not require structured data.
+D) Are never accurate enough for real-world tasks.
+Answer: B
+
+...
+
+### Unit 16 : Learn About Einstein Bots ###
+### Summary ###
+Einstein Bots are Salesforce’s AI-powered chatbots that automate customer interactions using Natural Language Understanding (NLU).
+They deflect routine cases, support branding, and improve service efficiency when properly planned and connected to service infrastructure.
+
+### Questions ###
+Question 1: What is a chatbot?
+A) A database that tracks words in and out
+B) A robot that simulates people talking
+C) An application that simulates human conversation
+D) Software that records human conversations and plays them back
+Answer: C
+
+Question 2: Why is it important to set up case management and service channels before enabling Einstein Bots?
+A) So bots can run faster.
+B) To ensure fallback options are available when a bot cannot resolve an issue.
+C) Because bots cannot function without phone support.
+D) To meet Salesforce licensing requirements.
+Answer: B

@@ -1,21 +1,80 @@
-### Unit 8: Explore Generative AI Models and Their Business Impact ###
+UNIT 8: Explore Generative AI Models and Their Business Impact
+==================================================
 
-### Summary ###
-This unit outlines real-world impacts of generative AI across industries such as marketing, customer support, and software engineering. It covers key models, risks, and use cases that demonstrate how gen AI is transforming work.
+SUMMARY:
+- **Model Types**:
+  - **GANs (Generative Adversarial Networks)**: Use generator and discriminator in competition to produce realistic content.
+  - **Transformers**: Process sequential data for context-rich output generation.
+  - **VAEs (Variational Autoencoders)**: Compress and reconstruct data to generate varied outputs.
+  - **Autoregressive Models**: Generate sequences by predicting the next element from previous ones.
+  - **Diffusion Models**: Learn to reverse noise processes to generate detailed data.
+- **Success Requirements**: Data quality, computational power, model design, evaluation metrics, iteration, and ethical use.
+- **Business Applications**: Revolutionizing industries such as pharmaceuticals, retail, entertainment, finance, automotive, and technology.
+- **Popular Tools**: Include ChatGPT, Claude, Gemini, DALL-E 3, Midjourney, Stable Diffusion, and more.
+- **Ethical Considerations**: Hallucinations, confident failures, data bias, misinformation, and sustainability concerns.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. What is the main function of a GAN in generative AI?
+   A) It optimizes cloud storage algorithms
+   B) It translates languages
+   C) It uses a generator and discriminator to produce realistic outputs
+   D) It visualizes training data in dashboards
+   - **Answer: C**
+   Answer: C
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. Why are transformers used for language-based tasks?
+   A) They operate entirely without training
+   B) They process context across sequences of data
+   C) They generate only binary results
+   D) They rely solely on image data
+   - **Answer: B**
+   Answer: B
 
-### End of Unit 8 ###
+3. Which model type predicts the next element in a sequence based on prior elements?
+   A) Diffusion
+   B) Transformer
+   C) Autoregressive
+   D) VAE
+   - **Answer: C**
+   Answer: C
+
+4. What is the purpose of the Fréchet Inception Distance (FID) metric?
+   A) To optimize transformer speed
+   B) To calculate user engagement
+   C) To evaluate quality of generated images
+   D) To measure cloud compute cost
+   - **Answer: C**
+   Answer: C
+
+5. What is a key benefit of using generative AI in the automotive industry?
+   A) Generating vehicle insurance reports
+   B) Automating physical repairs
+   C) Simulating vehicle components to reduce prototype needs
+   D) Creating legal documentation for recalls
+   - **Answer: C**
+   Answer: C
+
+6. What are some common ethical concerns with generative AI?
+   A) Excessive documentation and overtraining
+   B) Compliance with open-source licenses
+   C) Hallucinations, biased outputs, misinformation
+   D) Too many models being open-sourced
+   - **Answer: C**
+   Answer: C
+
+7. Which tool focuses on ethical AI conversations and safe interactions?
+   A) ChatGPT
+   B) Claude
+   C) Stable Diffusion
+   D) DALL-E 3
+   - **Answer: B**
+   Answer: B
+
+8. What is the main environmental challenge of generative AI?
+   A) AI training slows internet speeds
+   B) It disrupts rural power grids
+   C) Its carbon footprint and energy usage are high
+   D) It leads to less demand for cloud storage
+   - **Answer: C**
+   Answer: C
+

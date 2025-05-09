@@ -1,21 +1,79 @@
-### Unit 1: Get Started with Artificial Intelligence ###
+UNIT 1: Get Started with Artificial Intelligence
+==================================================
 
-### Summary ###
-AI allows computers to perform tasks traditionally requiring human intelligence, such as reasoning, learning, and problem-solving. Definitions are difficult due to the variability in intelligence across species and portrayals in fiction. Current AI systems are specialized for tasks such as numeric prediction, classification, robotic navigation, and natural language processing.
+SUMMARY:
+- **AI Definition**: AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.
+- **Challenge in Defining AI**: Difficulties arise due to human-centric perspectives, varying intelligence among humans and animals, and fictional portrayals of AI.
+- **Specialized AI**: Currently, AI systems excel in specialized tasks rather than generalized intelligence.
+- **Main AI Capabilities**:
+  - **Numeric Predictions**: Forecasting outcomes like weather, sales, or risk levels.
+  - **Classifications**: Sorting data into categories, such as detecting fraud or classifying images.
+  - **Robotic Navigation**: Navigating dynamic environments, applied in autonomous driving, logistics optimization, and robotic movements.
+  - **Language Processing (NLP)**: Interpreting and generating natural language, enabling translations, summaries, and conversations.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. Why is defining AI challenging?
+   A) AI systems always think exactly like humans.
+   B) Our views are distorted by science fiction and human-centered biases.
+   C) AI is already perfect and requires no definition.
+   D) AI definitions are strictly regulated by law.
+   - **Answer: B**
+   Answer: B
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. Which of the following is NOT one of the specialized capabilities of AI mentioned?
+   A) Numeric predictions
+   B) Classifications
+   C) Robotic navigation
+   D) General emotional understanding
+   - **Answer: D**
+   Answer: D
 
-### End of Unit 1 ###
+3. Numeric predictions by AI could include predicting:
+   A) Only weather forecasts
+   B) Any numeric value like sales or pricing
+   C) Only binary outcomes (yes/no)
+   D) Only financial transactions
+   - **Answer: B**
+   Answer: B
+
+4. Which scenario illustrates AI performing a classification task?
+   A) Predicting tomorrow's temperature
+   B) A robot vacuum avoiding furniture
+   C) Detecting fraudulent transactions
+   D) Translating a letter into Spanish
+   - **Answer: C**
+   Answer: C
+
+5. Robotic navigation AI is specifically good at:
+   A) Translating natural languages
+   B) Identifying phishing emails
+   C) Adapting to changing environments
+   D) Predicting quarterly sales figures
+   - **Answer: C**
+   Answer: C
+
+6. Natural Language Processing (NLP) primarily focuses on:
+   A) Predicting weather
+   B) Identifying numeric trends
+   C) Translating or interpreting human language
+   D) Navigating autonomous vehicles
+   - **Answer: C**
+   Answer: C
+
+7. What can distort our understanding of artificial intelligence?
+   A) Solar flares
+   B) An unclear definition of artificial
+   C) Fictional representations of AI
+   D) A narrow view of what constitutes intelligence
+   E) C and D
+   - **Answer: E**
+   Answer: E
+
+8. Which broad category would an AI system fit into if it's used to determine the optimal price of an airline ticket?
+   A) Numeric prediction
+   B) Classification
+   C) Robotic navigation
+   D) Language processing
+   - **Answer: A**
+   Answer: A
+

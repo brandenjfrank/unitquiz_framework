@@ -1,0 +1,100 @@
+### Unit 1 : Get Started with Artificial Intelligence ###
+### Summary ###
+AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.
+Defining AI is difficult due to human-centric perspectives and fictional portrayals.
+Specialized AI excels at numeric prediction, classification, robotic navigation, and language processing.
+
+### Questions ###
+Question 1: Why is defining AI challenging?
+A) AI systems always think exactly like humans.
+B) Our views are distorted by science fiction and human-centered biases.
+C) AI is already perfect and requires no definition.
+D) AI definitions are strictly regulated by law.
+Answer: B
+
+Question 2: Which of the following is NOT one of the specialized capabilities of AI mentioned?
+A) Numeric predictions
+B) Classifications
+C) Robotic navigation
+D) General emotional understanding
+Answer: D
+
+Question 3: Numeric predictions by AI could include predicting:
+A) Only weather forecasts
+B) Any numeric value like sales or pricing
+C) Only binary outcomes (yes/no)
+D) Only financial transactions
+Answer: B
+
+Question 4: Which scenario illustrates AI performing a classification task?
+A) Predicting tomorrow’s temperature
+B) A robot vacuum avoiding furniture
+C) Detecting fraudulent transactions
+D) Translating a letter into Spanish
+Answer: C
+
+Question 5: Robotic navigation AI is specifically good at:
+A) Translating natural languages
+B) Identifying phishing emails
+C) Adapting to changing environments
+D) Predicting quarterly sales figures
+Answer: C
+
+Question 6: Natural Language Processing (NLP) primarily focuses on:
+A) Predicting weather
+B) Identifying numeric trends
+C) Translating or interpreting human language
+D) Navigating autonomous vehicles
+Answer: C
+
+Question 7: What can distort our understanding of artificial intelligence?
+A) Solar flares
+B) An unclear definition of artificial
+C) Fictional representations of AI
+D) A narrow view of what constitutes intelligence
+E) C and D
+Answer: E
+
+Question 8: Which broad category would an AI system fit into if it’s used to determine the optimal price of an airline ticket?
+A) Numeric prediction
+B) Classification
+C) Robotic navigation
+D) Language processing
+Answer: A
+
+...
+
+### Unit 2 : Turn Data into Models ###
+### Summary ###
+Artificial Intelligence models are increasingly built using Machine Learning (ML)—training systems with data rather than manually coded rules.
+ML adjusts weights based on historical data. Structured data supports supervised learning, while unstructured data supports unsupervised learning.
+
+### Questions ###
+Question 1: Why is Machine Learning sometimes preferable to hand-coded algorithms?
+A) Because ML requires less math.
+B) Because ML is always faster.
+C) Because some tasks have too many rules and exceptions to manually code.
+D) Because laws mandate the use of ML.
+Answer: C
+
+...
+
+### Unit 16 : Learn About Einstein Bots ###
+### Summary ###
+Einstein Bots are Salesforce’s AI-powered chatbots that automate customer interactions using Natural Language Understanding (NLU).
+They deflect routine cases, support branding, and improve service efficiency when properly planned and connected to service infrastructure.
+
+### Questions ###
+Question 1: What is a chatbot?
+A) A database that tracks words in and out
+B) A robot that simulates people talking
+C) An application that simulates human conversation
+D) Software that records human conversations and plays them back
+Answer: C
+
+Question 2: Why is it important to set up case management and service channels before enabling Einstein Bots?
+A) So bots can run faster.
+B) To ensure fallback options are available when a bot cannot resolve an issue.
+C) Because bots cannot function without phone support.
+D) To meet Salesforce licensing requirements.
+Answer: B

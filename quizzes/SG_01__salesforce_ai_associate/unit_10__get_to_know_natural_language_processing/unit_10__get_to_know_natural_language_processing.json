@@ -1,29 +1,58 @@
 {
   "unit_number": 10,
   "title": "Get to Know Natural Language Processing",
-  "summary": "Natural Language Processing (NLP) allows computers to understand and generate human language. Modern NLP systems rely on neural networks to perform tasks such as translation, summarization, and conversational interaction.",
+  "summary": "- **Definition**: Natural Language Processing (NLP) is a subfield of artificial intelligence that enables computers to understand, interpret, and generate human language.\n- **Applications**: Powers translation services, voice assistants, document editors, chatbots, and customer service platforms.\n- **Historical Evolution**:\n  - **1950s**: Turing Test, basic machine translation\n  - **1960s–80s**: Rule-based and knowledge-based systems\n  - **1990s–2000s**: Statistical approaches and web-scale datasets\n  - **2009–Present**: Neural networks and deep learning\n- **Key Components**:\n  - **Natural Language Understanding (NLU)**: Transforms unstructured text into structured meaning.\n  - **Natural Language Generation (NLG)**: Generates human-like language from structured data.\n- **Data Type Processing**: Converts between unstructured human language and structured formats for machine understanding.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "What is natural language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The root of all languages."
+        },
+        {
+          "id": "B",
+          "text": "The ways humans communicate."
+        },
+        {
+          "id": "C",
+          "text": "How computers speak to each other."
+        },
+        {
+          "id": "D",
+          "text": "The language of plants.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "In what ways have neural networks impacted NLP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NLP has become faster."
+        },
+        {
+          "id": "B",
+          "text": "NLP has become more contextually accurate."
+        },
+        {
+          "id": "C",
+          "text": "NLP is no longer important."
+        },
+        {
+          "id": "D",
+          "text": "A and B"
+        },
+        {
+          "id": "E",
+          "text": "A and C\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
     }
   ]
 }

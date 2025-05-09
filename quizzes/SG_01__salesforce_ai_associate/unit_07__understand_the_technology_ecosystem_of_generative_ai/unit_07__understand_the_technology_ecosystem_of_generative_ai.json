@@ -1,29 +1,115 @@
 {
   "unit_number": 7,
   "title": "Understand the Technology Ecosystem of Generative AI",
-  "summary": "The generative AI ecosystem includes foundational models, training data, compute infrastructure, APIs, and ethical frameworks. This unit discusses the importance of scalable architecture and the partnerships enabling widespread AI access.",
+  "summary": "- **Key Drivers of AI Advancement**:\n  - Massive volumes of training data (e.g., web pages)\n  - New neural network architectures, especially transformers\n  - Parallel computing power enabling faster training\n- **Transformer Models**: Identify important relationships between words, even across long text spans.\n- **Tech Stack Components**:\n  - **Computing Hardware**: High-performance processors (GPUs) enable large-scale AI training.\n  - **Cloud Platforms**: Provide access to computing infrastructure for AI development.\n  - **Foundational Models**: Pre-trained AI models accessed through APIs.\n  - **Infrastructure Optimization**: Tools for model testing and fine-tuning.\n  - **Data Layer**: Supports inference process where new data is processed.\n  - **Applications**: End-user tools leveraging foundational models.\n- **Common Concerns**: Hallucinations, data security, plagiarism, user spoofing, and sustainability challenges.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "New AI model architecture and availability of extensive training data are two factors in the rapid improvement of generative AI. What's the third?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI optimizing AI code"
+        },
+        {
+          "id": "B",
+          "text": "Increased parallel computing power"
+        },
+        {
+          "id": "C",
+          "text": "Larger data storage capacity of servers"
+        },
+        {
+          "id": "D",
+          "text": "Faster satellite data connections\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "True or false: Developers must create their own large language models in order to add natural language processing to their applications.",
+      "options": [
+        {
+          "id": "A",
+          "text": "True"
+        },
+        {
+          "id": "B",
+          "text": "False\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "What is the primary benefit of the transformer architecture in training large language models?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses satellite signals to generate responses"
+        },
+        {
+          "id": "B",
+          "text": "It improves battery life for mobile devices"
+        },
+        {
+          "id": "C",
+          "text": "It captures word relationships across long text spans using parallel calculations"
+        },
+        {
+          "id": "D",
+          "text": "It reduces hallucinations in final outputs\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which layer of the generative AI tech stack enables developers to access powerful AI through APIs like GPT or Claude?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Applications"
+        },
+        {
+          "id": "B",
+          "text": "Foundational Models"
+        },
+        {
+          "id": "C",
+          "text": "Cloud Platforms"
+        },
+        {
+          "id": "D",
+          "text": "Infrastructure Optimization\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Why is sustainability a growing concern in generative AI development?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generative AI models are expensive to license"
+        },
+        {
+          "id": "B",
+          "text": "Generative AI models promote overuse of the internet"
+        },
+        {
+          "id": "C",
+          "text": "Large models consume a lot of computing power, leading to environmental impact"
+        },
+        {
+          "id": "D",
+          "text": "LLMs are not accurate in predicting energy use\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     }
   ]
 }

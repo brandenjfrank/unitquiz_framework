@@ -1,21 +1,66 @@
-### Unit 2: Turn Data into Models ###
+UNIT 2: Turn Data into Models
+==================================================
 
-### Summary ###
-This unit explores how data becomes useful through model creation. By converting structured data into algorithms, we can predict outcomes and automate decisions. Key concepts include training, testing, and evaluating machine learning models.
+SUMMARY:
+- **Machine Learning vs. Traditional Algorithms**: ML trains systems using data, whereas traditional algorithms explicitly program rules.
+- **Limitations of Hand-coding**: Many tasks involve numerous unknown or complex rules, making ML necessary.
+- **Learning Process**: Machine Learning involves training models by adjusting numerical "weights" assigned to inputs based on historical data.
+- **Data Types**:
+  - **Structured Data**: Clearly organized and labeled data, suitable for supervised learning, where input-output pairs are known and verifiable.
+  - **Unstructured Data**: Data without explicit labels or organization (such as images or text), suitable for unsupervised learning, where AI identifies patterns without predefined outcomes.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. Why is Machine Learning sometimes preferable to hand-coded algorithms?
+   A) Because ML requires less math.
+   B) Because ML is always faster.
+   C) Because some tasks have too many rules and exceptions to manually code.
+   D) Because laws mandate the use of ML.
+   - **Answer: C**
+   Answer: C
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. In supervised learning, AI systems:
+   A) Try to find patterns without knowing the desired outcome.
+   B) Have clearly labeled input-output pairs to verify predictions.
+   C) Do not require structured data.
+   D) Are never accurate enough for real-world tasks.
+   - **Answer: B**
+   Answer: B
 
-### End of Unit 2 ###
+3. Which is an example of structured data?
+   A) Social media comments without labels.
+   B) A folder full of unlabeled images.
+   C) A spreadsheet listing employee names, IDs, and salaries.
+   D) An article in a newspaper.
+   - **Answer: C**
+   Answer: C
+
+4. How does a computer determine which input factors most affect a prediction?
+   A) Randomly guessing until the correct answer appears.
+   B) Assigning weights to inputs, then iteratively adjusting them based on historical data.
+   C) Hand-coded instructions written by programmers.
+   D) By ignoring inputs and relying only on outputs.
+   - **Answer: B**
+   Answer: B
+
+5. Unsupervised learning occurs when AI:
+   A) Uses structured, labeled data to verify predictions.
+   B) Has specific inputs matched to exact outputs.
+   C) Finds patterns without predefined labels or outcomes.
+   D) Ignores the data completely.
+   - **Answer: C**
+   Answer: C
+
+6. What limits programmers from handcrafting algorithms to perform tasks we associate with human intelligence?
+   A) Not enough memory in modern computers
+   B) Laws that prevent the creation of AI
+   C) The sheer number of rules to account for, many of which are unknown
+   D) Too little coffee, too little time
+   - **Answer: C**
+   Answer: C
+
+7. True or false: A database of business names, zip codes, and market value would be an example of structured data?
+   A) True
+   B) False
+   - **Answer: A**
+   Answer: A
+

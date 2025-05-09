@@ -1,29 +1,161 @@
 {
   "unit_number": 2,
   "title": "Turn Data into Models",
-  "summary": "This unit explores how data becomes useful through model creation. By converting structured data into algorithms, we can predict outcomes and automate decisions. Key concepts include training, testing, and evaluating machine learning models.",
+  "summary": "- **Machine Learning vs. Traditional Algorithms**: ML trains systems using data, whereas traditional algorithms explicitly program rules.\n- **Limitations of Hand-coding**: Many tasks involve numerous unknown or complex rules, making ML necessary.\n- **Learning Process**: Machine Learning involves training models by adjusting numerical \"weights\" assigned to inputs based on historical data.\n- **Data Types**:\n  - **Structured Data**: Clearly organized and labeled data, suitable for supervised learning, where input-output pairs are known and verifiable.\n  - **Unstructured Data**: Data without explicit labels or organization (such as images or text), suitable for unsupervised learning, where AI identifies patterns without predefined outcomes.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "Why is Machine Learning sometimes preferable to hand-coded algorithms?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because ML requires less math."
+        },
+        {
+          "id": "B",
+          "text": "Because ML is always faster."
+        },
+        {
+          "id": "C",
+          "text": "Because some tasks have too many rules and exceptions to manually code."
+        },
+        {
+          "id": "D",
+          "text": "Because laws mandate the use of ML.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "In supervised learning, AI systems:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Try to find patterns without knowing the desired outcome."
+        },
+        {
+          "id": "B",
+          "text": "Have clearly labeled input-output pairs to verify predictions."
+        },
+        {
+          "id": "C",
+          "text": "Do not require structured data."
+        },
+        {
+          "id": "D",
+          "text": "Are never accurate enough for real-world tasks.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which is an example of structured data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Social media comments without labels."
+        },
+        {
+          "id": "B",
+          "text": "A folder full of unlabeled images."
+        },
+        {
+          "id": "C",
+          "text": "A spreadsheet listing employee names, IDs, and salaries."
+        },
+        {
+          "id": "D",
+          "text": "An article in a newspaper.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "How does a computer determine which input factors most affect a prediction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Randomly guessing until the correct answer appears."
+        },
+        {
+          "id": "B",
+          "text": "Assigning weights to inputs, then iteratively adjusting them based on historical data."
+        },
+        {
+          "id": "C",
+          "text": "Hand-coded instructions written by programmers."
+        },
+        {
+          "id": "D",
+          "text": "By ignoring inputs and relying only on outputs.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Unsupervised learning occurs when AI:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uses structured, labeled data to verify predictions."
+        },
+        {
+          "id": "B",
+          "text": "Has specific inputs matched to exact outputs."
+        },
+        {
+          "id": "C",
+          "text": "Finds patterns without predefined labels or outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Ignores the data completely.\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What limits programmers from handcrafting algorithms to perform tasks we associate with human intelligence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Not enough memory in modern computers"
+        },
+        {
+          "id": "B",
+          "text": "Laws that prevent the creation of AI"
+        },
+        {
+          "id": "C",
+          "text": "The sheer number of rules to account for, many of which are unknown"
+        },
+        {
+          "id": "D",
+          "text": "Too little coffee, too little time\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "True or false: A database of business names, zip codes, and market value would be an example of structured data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "True"
+        },
+        {
+          "id": "B",
+          "text": "False\n   - **Answer: A**"
+        }
+      ],
+      "answer": "A",
+      "explanation": ""
     }
   ]
 }

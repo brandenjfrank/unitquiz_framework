@@ -1,29 +1,192 @@
 {
   "unit_number": 6,
   "title": "Explore the Capabilities of Generative AI",
-  "summary": "Generative AI models go beyond analysis and produce new content\u2014like text, images, or code\u2014using language models. The unit explains how tools like ChatGPT capture public interest by simulating human-like conversations using advanced transformers.",
+  "summary": "- **Definition**: Generative AI is a subset of artificial intelligence that can produce original and creative content like text, images, and sounds.\n- **Training**: Generative AI models, especially Large Language Models (LLMs), are trained on extensive datasets, such as internet pages.\n- **Key Capabilities**:\n  - **Summarization**: Condensing large amounts of text into concise summaries.\n  - **Translation**: Converting text accurately between languages.\n  - **Error Correction**: Identifying and fixing grammatical or spelling errors.\n  - **Question Answering**: Responding contextually and accurately to queries.\n  - **Guided Image Generation**: Creating or expanding images based on textual descriptions.\n  - **Text-to-Speech**: Converting text into realistic, spoken audio.\n- **Nature of Responses**: Content produced by generative AI is based on sophisticated predictions rather than actual thought or intent.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "What makes generative AI different from traditional AI models?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It performs numeric predictions only"
+        },
+        {
+          "id": "B",
+          "text": "It requires structured data exclusively"
+        },
+        {
+          "id": "C",
+          "text": "It can produce new, original text, images, and sounds"
+        },
+        {
+          "id": "D",
+          "text": "It strictly adheres to predefined outputs\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "What is a Large Language Model (LLM)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A model that translates languages exclusively"
+        },
+        {
+          "id": "B",
+          "text": "An AI trained on very large text datasets to understand human language intricacies"
+        },
+        {
+          "id": "C",
+          "text": "An AI model designed only for image recognition"
+        },
+        {
+          "id": "D",
+          "text": "A model trained specifically for numeric predictions\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which of the following is NOT mentioned as a capability of generative AI language models?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Summarization"
+        },
+        {
+          "id": "B",
+          "text": "Image generation"
+        },
+        {
+          "id": "C",
+          "text": "Error correction"
+        },
+        {
+          "id": "D",
+          "text": "Physical robotic assembly\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "question": "Why is the internet particularly valuable for training generative AI?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It only provides high-quality images"
+        },
+        {
+          "id": "B",
+          "text": "It has well-organized numeric data"
+        },
+        {
+          "id": "C",
+          "text": "It provides massive amounts of text data"
+        },
+        {
+          "id": "D",
+          "text": "It ensures data hygiene automatically\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Generative AI text-to-speech models primarily:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convert images to text"
+        },
+        {
+          "id": "B",
+          "text": "Predict numeric outcomes"
+        },
+        {
+          "id": "C",
+          "text": "Translate text between languages"
+        },
+        {
+          "id": "D",
+          "text": "Generate realistic speech audio from text\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "question": "The responses generated by AI such as ChatGPT are primarily based on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Human opinions and actual desires"
+        },
+        {
+          "id": "B",
+          "text": "Random guesses"
+        },
+        {
+          "id": "C",
+          "text": "Predictions from large datasets"
+        },
+        {
+          "id": "D",
+          "text": "Genuine understanding and consciousness\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is it called when AI interprets everyday language?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Slang translation"
+        },
+        {
+          "id": "B",
+          "text": "Text-to-task"
+        },
+        {
+          "id": "C",
+          "text": "Intention prediction"
+        },
+        {
+          "id": "D",
+          "text": "Natural language processing\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "question": "If you ask a generative AI what its favorite color is, and it responds \"blue,\" this is an example of what?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sentience"
+        },
+        {
+          "id": "B",
+          "text": "Opinion"
+        },
+        {
+          "id": "C",
+          "text": "Prediction"
+        },
+        {
+          "id": "D",
+          "text": "Randomness\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
     }
   ]
 }

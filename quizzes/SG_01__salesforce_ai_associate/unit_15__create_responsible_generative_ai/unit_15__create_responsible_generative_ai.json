@@ -1,29 +1,7 @@
 {
   "unit_number": 15,
   "title": "Create Responsible Generative AI",
-  "summary": "Generative AI creates new content, raising unique risks like misinformation, bias, and privacy leaks. This unit covers Salesforce\u2019s principles\u2014accuracy, safety, honesty, empowerment, and sustainability\u2014for designing responsible gen AI systems.",
-  "questions": [
-    {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
-    },
-    {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
-    }
-  ]
+  "summary": "Generative AI (gen AI) represents a shift from traditional predictive models by generating new, original content instead of just analyzing existing data. While this opens exciting possibilities across industries—from marketing and customer support to code generation and content creation—it also introduces serious ethical, security, and social concerns. Responsible gen AI development requires clear principles, product safeguards, inclusive collaboration, and continual monitoring to ensure trust, safety, and long-term impact.",
+  "key_takeaways": [],
+  "questions": []
 }

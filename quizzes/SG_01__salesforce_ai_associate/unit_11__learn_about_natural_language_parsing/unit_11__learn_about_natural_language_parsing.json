@@ -1,29 +1,169 @@
 {
   "unit_number": 11,
   "title": "Learn About Natural Language Parsing",
-  "summary": "Natural Language Parsing helps AI analyze human language by breaking it into parts and interpreting structure and meaning. Techniques include tokenization, lemmatization, part-of-speech tagging, and entity recognition. Analysis tools assess sentiment, intent, and context.",
+  "summary": "- **Definition**: Natural Language Parsing refers to techniques used by AI systems to analyze and derive meaning from human language.\n- **Elements of Natural Language**:\n  - **Vocabulary**: The words we use\n  - **Grammar**: Rules governing sentence structure\n  - **Syntax**: Word combinations according to grammar\n  - **Semantics**: Meaning of words and phrases\n  - **Pragmatics**: Context and intent behind language use\n  - **Discourse**: Units larger than single phrases/sentences\n  - **Phonetics**: Sounds made during communication\n  - **Morphology**: How word parts combine to form new words\n- **Parsing Techniques**:\n  - **Segmentation**: Breaking text into meaningful sections\n  - **Tokenization**: Splitting text into words or tokens\n  - **Stemming**: Reducing words to root forms (less accurate)\n  - **Lemmatization**: Reducing words to base form using grammar context (more accurate)\n  - **Part-of-Speech (POS) Tagging**: Assigning roles to words\n  - **Named Entity Recognition (NER)**: Identifying people, places, dates, etc.\n  - **Semantic Parsing**: Extracting meaning through grammatical analysis\n- **Analysis Techniques**:\n  - **Sentiment Analysis**: Determining emotional tone\n  - **Intent Analysis**: Identifying purpose behind text\n  - **Context/Discourse Analysis**: Using surrounding information to resolve ambiguity",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "Which NLP technique uses the part of speech to more accurately find the root of a word?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Segmentation"
+        },
+        {
+          "id": "B",
+          "text": "Tokenization"
+        },
+        {
+          "id": "C",
+          "text": "Stemming"
+        },
+        {
+          "id": "D",
+          "text": "Lemmatization\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "What is the term for finding the underlying structure of text in NLP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Parts of speech"
+        },
+        {
+          "id": "B",
+          "text": "Parsing"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Sentiment\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "What is the difference between stemming and lemmatization?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stemming finds parts of speech, while lemmatization finds named entities"
+        },
+        {
+          "id": "B",
+          "text": "Stemming removes punctuation; lemmatization finds sentence structure"
+        },
+        {
+          "id": "C",
+          "text": "Stemming cuts words to a rough root form; lemmatization finds accurate root words based on context"
+        },
+        {
+          "id": "D",
+          "text": "Stemming creates new words; lemmatization removes duplicates\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is Named Entity Recognition (NER) used for in NLP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Predicting numeric outcomes"
+        },
+        {
+          "id": "B",
+          "text": "Classifying grammar types"
+        },
+        {
+          "id": "C",
+          "text": "Identifying names, places, and organizations in text"
+        },
+        {
+          "id": "D",
+          "text": "Counting word frequency\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Why is context analysis important in NLP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It makes tokenization more efficient"
+        },
+        {
+          "id": "B",
+          "text": "It enables compression of output"
+        },
+        {
+          "id": "C",
+          "text": "It helps interpret meaning based on the broader situation"
+        },
+        {
+          "id": "D",
+          "text": "It ensures longer sentences are broken down\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What is the goal of intent analysis in NLP?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To detect spelling mistakes"
+        },
+        {
+          "id": "B",
+          "text": "To analyze tone and emotion"
+        },
+        {
+          "id": "C",
+          "text": "To determine the purpose or goal behind a user's words"
+        },
+        {
+          "id": "D",
+          "text": "To replace missing punctuation\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Which parsing method breaks large blocks of text into smaller, meaningful sections?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lemmatization"
+        },
+        {
+          "id": "B",
+          "text": "Segmentation"
+        },
+        {
+          "id": "C",
+          "text": "Morphology"
+        },
+        {
+          "id": "D",
+          "text": "Sentiment analysis\n   - **Answer: B**\n\n# Salesforce AI Associate Study Guide"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
     }
   ]
 }

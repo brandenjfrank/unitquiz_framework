@@ -1,21 +1,7 @@
-### Unit 12: Understand the Ethical Use of Technology ###
+UNIT 12: Understand the Ethical Use of Technology
+==================================================
 
-### Summary ###
-Ethical AI ensures fairness, transparency, and inclusion in technology. This unit highlights how teams must design systems that reduce bias, involve diverse voices, and align with human values. Documentation, review boards, and incentive structures support responsible AI use.
+SUMMARY:
+Ethical technology use ensures AI systems reflect fairness, inclusion, and responsible decision-making. Ethical lapses in design or deployment can unintentionally cause harm or exclusion. Salesforce promotes ethical tech by translating core values into development processes and encouraging diverse perspectives throughout the product lifecycle. Bias can arise from flawed assumptions, lack of diverse data, or team homogeneity. Fairness involves making decisions that minimize disproportionate harm and consider systemic inequality. Creating an ethical culture requires cross-functional accountability, process documentation, and a clear understanding of how users are impacted.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
-
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
-
-### End of Unit 12 ###
+QUESTIONS:

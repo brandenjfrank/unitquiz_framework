@@ -1,21 +1,64 @@
-### Unit 3: Understand the Need for Neural Networks ###
+UNIT 3: Understand the Need for Neural Networks
+==================================================
 
-### Summary ###
-Neural networks enable machines to simulate the structure of the human brain for better pattern recognition. This unit explains why linear algorithms aren't always sufficient and introduces the layers, nodes, and feedback mechanisms used in deep learning models.
+SUMMARY:
+- **Complex Relationships**: Neural networks allow AI systems to recognize complex relationships between input data and outcomes, crucial for sophisticated predictions.
+- **Simple vs. Complex Models**: Simple AI models assign a single importance (weight) to each input, but this oversimplifies real-world scenarios.
+- **Node Structure**: Neural networks solve this by creating multiple interconnected nodes to represent unique combinations of inputs.
+- **Biases and Weights**: Each node adjusts the final output based on biases and additional weights.
+- **Deep Learning**: Adding more layers and nodes creates "deep learning," enabling the AI to discover hidden relationships by making multiple leaps of inference.
+- **Black Box Nature**: Although powerful, neural networks are often "black boxes," making predictions without clear explanations.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. Why do we need neural networks instead of simpler AI models?
+   A) They require less computing power.
+   B) They perfectly match every human decision.
+   C) They better handle complex, scenario-dependent relationships.
+   D) They always provide completely transparent explanations.
+   - **Answer: C**
+   Answer: C
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. What term refers to the adjustments applied to specific scenarios within a neural network?
+   A) Nodes
+   B) Weights
+   C) Biases
+   D) Layers
+   - **Answer: C**
+   Answer: C
 
-### End of Unit 3 ###
+3. How does a neural network model get better at making predictions?
+   A) By randomly guessing outcomes
+   B) By manually entering all possible outcomes
+   C) By adjusting weights and biases through experience with data
+   D) By limiting itself to a single layer of nodes
+   - **Answer: C**
+   Answer: C
+
+4. What is a characteristic of deep learning neural networks?
+   A) They have a single input node.
+   B) They only handle numeric data.
+   C) They use multiple layers of interconnected nodes.
+   D) They never change their initial biases.
+   - **Answer: C**
+   Answer: C
+
+5. True or false: Neural networks always clearly explain why they reached a specific conclusion.
+   A) True
+   B) False
+   - **Answer: B**
+   Answer: B
+
+6. For AI training to be considered deep learning, what does its neural network need more of?
+   A) Nodes
+   B) Weights
+   C) Layers
+   D) Inputs
+   - **Answer: C**
+   Answer: C
+
+7. True or false: The values of weights and biases in a trained neural network usually have an obvious connection to the inputs.
+   A) True
+   B) False
+   - **Answer: B**
+   Answer: B
+

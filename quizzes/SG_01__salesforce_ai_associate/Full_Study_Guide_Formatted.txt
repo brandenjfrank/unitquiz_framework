@@ -1,0 +1,1094 @@
+# AI Study Guide - Formatted Units
+
+## Unit 1: Get Started with Artificial Intelligence
+
+### Summary
+- **AI Definition**: AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.
+- **Challenge in Defining AI**: Difficulties arise due to human-centric perspectives, varying intelligence among humans and animals, and fictional portrayals of AI.
+- **Specialized AI**: Currently, AI systems excel in specialized tasks rather than generalized intelligence.
+- **Main AI Capabilities**:
+  - **Numeric Predictions**: Forecasting outcomes like weather, sales, or risk levels.
+  - **Classifications**: Sorting data into categories, such as detecting fraud or classifying images.
+  - **Robotic Navigation**: Navigating dynamic environments, applied in autonomous driving, logistics optimization, and robotic movements.
+  - **Language Processing (NLP)**: Interpreting and generating natural language, enabling translations, summaries, and conversations.
+
+### Study Questions (8)
+1. **Why is defining AI challenging?**
+   - A) AI systems always think exactly like humans.
+   - B) Our views are distorted by science fiction and human-centered biases.
+   - C) AI is already perfect and requires no definition.
+   - D) AI definitions are strictly regulated by law.
+   - **Answer: B**
+
+2. **Which of the following is NOT one of the specialized capabilities of AI mentioned?**
+   - A) Numeric predictions
+   - B) Classifications
+   - C) Robotic navigation
+   - D) General emotional understanding
+   - **Answer: D**
+
+3. **Numeric predictions by AI could include predicting:**
+   - A) Only weather forecasts
+   - B) Any numeric value like sales or pricing
+   - C) Only binary outcomes (yes/no)
+   - D) Only financial transactions
+   - **Answer: B**
+
+4. **Which scenario illustrates AI performing a classification task?**
+   - A) Predicting tomorrow's temperature
+   - B) A robot vacuum avoiding furniture
+   - C) Detecting fraudulent transactions
+   - D) Translating a letter into Spanish
+   - **Answer: C**
+
+5. **Robotic navigation AI is specifically good at:**
+   - A) Translating natural languages
+   - B) Identifying phishing emails
+   - C) Adapting to changing environments
+   - D) Predicting quarterly sales figures
+   - **Answer: C**
+
+6. **Natural Language Processing (NLP) primarily focuses on:**
+   - A) Predicting weather
+   - B) Identifying numeric trends
+   - C) Translating or interpreting human language
+   - D) Navigating autonomous vehicles
+   - **Answer: C**
+
+7. **What can distort our understanding of artificial intelligence?**
+   - A) Solar flares
+   - B) An unclear definition of artificial
+   - C) Fictional representations of AI
+   - D) A narrow view of what constitutes intelligence
+   - E) C and D
+   - **Answer: E**
+
+8. **Which broad category would an AI system fit into if it's used to determine the optimal price of an airline ticket?**
+   - A) Numeric prediction
+   - B) Classification
+   - C) Robotic navigation
+   - D) Language processing
+   - **Answer: A**
+
+## Unit 2: Turn Data into Models
+
+### Summary
+- **Machine Learning vs. Traditional Algorithms**: ML trains systems using data, whereas traditional algorithms explicitly program rules.
+- **Limitations of Hand-coding**: Many tasks involve numerous unknown or complex rules, making ML necessary.
+- **Learning Process**: Machine Learning involves training models by adjusting numerical "weights" assigned to inputs based on historical data.
+- **Data Types**:
+  - **Structured Data**: Clearly organized and labeled data, suitable for supervised learning, where input-output pairs are known and verifiable.
+  - **Unstructured Data**: Data without explicit labels or organization (such as images or text), suitable for unsupervised learning, where AI identifies patterns without predefined outcomes.
+
+### Study Questions (7)
+1. **Why is Machine Learning sometimes preferable to hand-coded algorithms?**
+   - A) Because ML requires less math.
+   - B) Because ML is always faster.
+   - C) Because some tasks have too many rules and exceptions to manually code.
+   - D) Because laws mandate the use of ML.
+   - **Answer: C**
+
+2. **In supervised learning, AI systems:**
+   - A) Try to find patterns without knowing the desired outcome.
+   - B) Have clearly labeled input-output pairs to verify predictions.
+   - C) Do not require structured data.
+   - D) Are never accurate enough for real-world tasks.
+   - **Answer: B**
+
+3. **Which is an example of structured data?**
+   - A) Social media comments without labels.
+   - B) A folder full of unlabeled images.
+   - C) A spreadsheet listing employee names, IDs, and salaries.
+   - D) An article in a newspaper.
+   - **Answer: C**
+
+4. **How does a computer determine which input factors most affect a prediction?**
+   - A) Randomly guessing until the correct answer appears.
+   - B) Assigning weights to inputs, then iteratively adjusting them based on historical data.
+   - C) Hand-coded instructions written by programmers.
+   - D) By ignoring inputs and relying only on outputs.
+   - **Answer: B**
+
+5. **Unsupervised learning occurs when AI:**
+   - A) Uses structured, labeled data to verify predictions.
+   - B) Has specific inputs matched to exact outputs.
+   - C) Finds patterns without predefined labels or outcomes.
+   - D) Ignores the data completely.
+   - **Answer: C**
+
+6. **What limits programmers from handcrafting algorithms to perform tasks we associate with human intelligence?**
+   - A) Not enough memory in modern computers
+   - B) Laws that prevent the creation of AI
+   - C) The sheer number of rules to account for, many of which are unknown
+   - D) Too little coffee, too little time
+   - **Answer: C**
+
+7. **True or false: A database of business names, zip codes, and market value would be an example of structured data?**
+   - A) True
+   - B) False
+   - **Answer: A**
+
+## Unit 3: Understand the Need for Neural Networks
+
+### Summary
+- **Complex Relationships**: Neural networks allow AI systems to recognize complex relationships between input data and outcomes, crucial for sophisticated predictions.
+- **Simple vs. Complex Models**: Simple AI models assign a single importance (weight) to each input, but this oversimplifies real-world scenarios.
+- **Node Structure**: Neural networks solve this by creating multiple interconnected nodes to represent unique combinations of inputs.
+- **Biases and Weights**: Each node adjusts the final output based on biases and additional weights.
+- **Deep Learning**: Adding more layers and nodes creates "deep learning," enabling the AI to discover hidden relationships by making multiple leaps of inference.
+- **Black Box Nature**: Although powerful, neural networks are often "black boxes," making predictions without clear explanations.
+
+### Study Questions (7)
+1. **Why do we need neural networks instead of simpler AI models?**
+   - A) They require less computing power.
+   - B) They perfectly match every human decision.
+   - C) They better handle complex, scenario-dependent relationships.
+   - D) They always provide completely transparent explanations.
+   - **Answer: C**
+
+2. **What term refers to the adjustments applied to specific scenarios within a neural network?**
+   - A) Nodes
+   - B) Weights
+   - C) Biases
+   - D) Layers
+   - **Answer: C**
+
+3. **How does a neural network model get better at making predictions?**
+   - A) By randomly guessing outcomes
+   - B) By manually entering all possible outcomes
+   - C) By adjusting weights and biases through experience with data
+   - D) By limiting itself to a single layer of nodes
+   - **Answer: C**
+
+4. **What is a characteristic of deep learning neural networks?**
+   - A) They have a single input node.
+   - B) They only handle numeric data.
+   - C) They use multiple layers of interconnected nodes.
+   - D) They never change their initial biases.
+   - **Answer: C**
+
+5. **True or false: Neural networks always clearly explain why they reached a specific conclusion.**
+   - A) True
+   - B) False
+   - **Answer: B**
+
+6. **For AI training to be considered deep learning, what does its neural network need more of?**
+   - A) Nodes
+   - B) Weights
+   - C) Layers
+   - D) Inputs
+   - **Answer: C**
+
+7. **True or false: The values of weights and biases in a trained neural network usually have an obvious connection to the inputs.**
+   - A) True
+   - B) False
+   - **Answer: B**
+
+## Unit 4: Improve Customer Service Using Artificial Intelligence
+
+### Summary
+- **AI in Customer Service**: Significantly enhances customer service by automating routine tasks and providing predictive insights.
+- **Core Technologies**: Machine learning, Natural Language Understanding (NLU), Natural Language Processing (NLP), Named Entity Recognition (NER), and Deep Learning.
+- **Data Hygiene**: Effective AI implementation depends critically on data quality; accurate data leads to seamless deployments.
+- **Salesforce Einstein Components**:
+  - **Einstein Bots**: Automated case resolution
+  - **Einstein Agent**: Improved agent productivity
+  - **Einstein Discovery**: Predictive insights
+  - **Einstein Vision**: Automated image classification in field service
+  - **Einstein Language**: Text sentiment and intent analysis
+- **Broader Benefits**: Enhances sales and marketing effectiveness through improved lead prioritization and personalized messaging.
+
+### Study Questions (9)
+1. **Why is maintaining good data hygiene crucial when deploying AI?**
+   - A) It reduces the amount of data needed.
+   - B) It simplifies the AI coding required.
+   - C) It ensures AI outcomes are accurate and useful.
+   - D) It prevents AI from using machine learning.
+   - **Answer: C**
+
+2. **Einstein Bots improve customer service by:**
+   - A) Resolving complex, human-only issues.
+   - B) Automatically handling routine customer requests.
+   - C) Limiting agent interactions to email only.
+   - D) Increasing complexity for customers.
+   - **Answer: B**
+
+3. **Which AI technology focuses specifically on analyzing and understanding human language as naturally spoken?**
+   - A) Named Entity Recognition (NER)
+   - B) Natural Language Processing (NLP)
+   - C) Deep Learning
+   - D) Robotic Navigation
+   - **Answer: B**
+
+4. **Einstein Vision for Field Service primarily helps:**
+   - A) Translate languages in real-time.
+   - B) Classify images to speed on-site issue resolution.
+   - C) Analyze customer sentiment in emails.
+   - D) Generate sales forecasts.
+   - **Answer: B**
+
+5. **Which of these is NOT mentioned as a direct benefit of AI in customer service?**
+   - A) Increased agent productivity
+   - B) Improved customer personalization
+   - C) Enhanced manager insights
+   - D) Automatic employee scheduling
+   - **Answer: D**
+
+6. **Salesforce Einstein supports customer service managers by:**
+   - A) Reducing the need for customer interactions.
+   - B) Providing predictive insights and strategic recommendations.
+   - C) Automating employee performance reviews.
+   - D) Limiting customer communication channels.
+   - **Answer: B**
+
+7. **What is one way AI improves the customer experience?**
+   - A) By automating agent breaks
+   - B) By ignoring customer history
+   - C) By providing personalized and rapid issue resolution
+   - D) By increasing manual data entry
+   - **Answer: C**
+
+8. **Salesforce Einstein assists customer service agents by making self-service easier, deflecting routine requests, and:**
+   - A) Mediating the relationship between agents and managers
+   - B) Accelerating issue resolution
+   - C) Reminding agents to take frequent breaks
+   - D) A and C
+   - **Answer: B**
+
+9. **Einstein Bots help agents by:**
+   - A) Automatically resolving top customer issues
+   - B) Collecting qualified customer information
+   - C) Telling agents what to do
+   - D) A and B
+   - **Answer: D**
+
+## Unit 5: Understand Why Chatbots Matter to the Contact Center
+
+### Summary
+- **Chatbot Purpose**: Applications designed to automate routine tasks through conversational interactions, improving service efficiency.
+- **Key Benefits**: Quicker resolution times, lower operational costs, enhanced customer satisfaction, and increased productivity.
+- **Einstein Bots**: Leverage AI, specifically Natural Language Understanding (NLU), to conduct meaningful conversations and resolve issues.
+- **Integration**: Seamless connection with CRM systems, enhancing data accessibility and user experience.
+- **Ease of Use**: Einstein Bot Builder enables chatbot creation without coding knowledge.
+- **Essential Qualities**: Effective chatbots are transparent, personable, thorough, and continuously improving through feedback.
+
+### Study Questions (8)
+1. **What primary function do chatbots serve in customer service?**
+   - A) Generating sales leads
+   - B) Automating routine customer inquiries
+   - C) Managing agent schedules
+   - D) Creating marketing content
+   - **Answer: B**
+
+2. **Einstein Bots primarily use what technology to understand and respond to customer interactions?**
+   - A) Deep learning
+   - B) Natural Language Understanding (NLU)
+   - C) Robotic Process Automation (RPA)
+   - D) Manual data entry
+   - **Answer: B**
+
+3. **An essential chatbot quality mentioned is being iterative. What does this mean?**
+   - A) Chatbots should perform repetitive tasks only.
+   - B) Chatbots require minimal updates after deployment.
+   - C) Chatbots must continually improve based on data and user feedback.
+   - D) Chatbots should limit interactions to one-time queries only.
+   - **Answer: C**
+
+4. **Which of the following is NOT a primary benefit of using chatbots in a contact center?**
+   - A) Reduced handle time
+   - B) Increased agent productivity
+   - C) Enhanced complexity of routine tasks
+   - D) Improved customer satisfaction
+   - **Answer: C**
+
+5. **What tool does Salesforce provide to help users create chatbots without coding?**
+   - A) Einstein Neural Studio
+   - B) Salesforce Chatbot Coder
+   - C) Einstein Bot Builder
+   - D) Salesforce Vision Builder
+   - **Answer: C**
+
+6. **What is a chatbot?**
+   - A) An application that can seamlessly hand off complex cases to agents
+   - B) A new type of call center manager
+   - C) An application that can carry on a chat conversation with a customer
+   - D) A and C
+   - **Answer: D**
+
+7. **How do Einstein Bots collect and qualify information in a conversational manner?**
+   - A) Using natural language understanding
+   - B) Using natural neural skills
+   - C) Taking extensive surveys
+   - D) Using a style guide
+   - **Answer: A**
+
+8. **How do chatbots improve the customer service experience for everyone involved?**
+   - A) By resolving low-level cases, saving time, and speeding resolution for customers
+   - B) By reporting underperformance to human resources promptly
+   - C) By using natural language understanding to help customers get refunds
+   - D) By using natural algorithms to coordinate website traffic
+   - **Answer: A**
+
+## Unit 6: Explore the Capabilities of Generative AI
+
+### Summary
+- **Definition**: Generative AI is a subset of artificial intelligence that can produce original and creative content like text, images, and sounds.
+- **Training**: Generative AI models, especially Large Language Models (LLMs), are trained on extensive datasets, such as internet pages.
+- **Key Capabilities**:
+  - **Summarization**: Condensing large amounts of text into concise summaries.
+  - **Translation**: Converting text accurately between languages.
+  - **Error Correction**: Identifying and fixing grammatical or spelling errors.
+  - **Question Answering**: Responding contextually and accurately to queries.
+  - **Guided Image Generation**: Creating or expanding images based on textual descriptions.
+  - **Text-to-Speech**: Converting text into realistic, spoken audio.
+- **Nature of Responses**: Content produced by generative AI is based on sophisticated predictions rather than actual thought or intent.
+
+### Study Questions (8)
+1. **What makes generative AI different from traditional AI models?**
+   - A) It performs numeric predictions only
+   - B) It requires structured data exclusively
+   - C) It can produce new, original text, images, and sounds
+   - D) It strictly adheres to predefined outputs
+   - **Answer: C**
+
+2. **What is a Large Language Model (LLM)?**
+   - A) A model that translates languages exclusively
+   - B) An AI trained on very large text datasets to understand human language intricacies
+   - C) An AI model designed only for image recognition
+   - D) A model trained specifically for numeric predictions
+   - **Answer: B**
+
+3. **Which of the following is NOT mentioned as a capability of generative AI language models?**
+   - A) Summarization
+   - B) Image generation
+   - C) Error correction
+   - D) Physical robotic assembly
+   - **Answer: D**
+
+4. **Why is the internet particularly valuable for training generative AI?**
+   - A) It only provides high-quality images
+   - B) It has well-organized numeric data
+   - C) It provides massive amounts of text data
+   - D) It ensures data hygiene automatically
+   - **Answer: C**
+
+5. **Generative AI text-to-speech models primarily:**
+   - A) Convert images to text
+   - B) Predict numeric outcomes
+   - C) Translate text between languages
+   - D) Generate realistic speech audio from text
+   - **Answer: D**
+
+6. **The responses generated by AI such as ChatGPT are primarily based on:**
+   - A) Human opinions and actual desires
+   - B) Random guesses
+   - C) Predictions from large datasets
+   - D) Genuine understanding and consciousness
+   - **Answer: C**
+
+7. **What is it called when AI interprets everyday language?**
+   - A) Slang translation
+   - B) Text-to-task
+   - C) Intention prediction
+   - D) Natural language processing
+   - **Answer: D**
+
+8. **If you ask a generative AI what its favorite color is, and it responds "blue," this is an example of what?**
+   - A) Sentience
+   - B) Opinion
+   - C) Prediction
+   - D) Randomness
+   - **Answer: C**
+
+## Unit 7: Understand the Technology Ecosystem of Generative AI
+
+### Summary
+- **Key Drivers of AI Advancement**:
+  - Massive volumes of training data (e.g., web pages)
+  - New neural network architectures, especially transformers
+  - Parallel computing power enabling faster training
+- **Transformer Models**: Identify important relationships between words, even across long text spans.
+- **Tech Stack Components**:
+  - **Computing Hardware**: High-performance processors (GPUs) enable large-scale AI training.
+  - **Cloud Platforms**: Provide access to computing infrastructure for AI development.
+  - **Foundational Models**: Pre-trained AI models accessed through APIs.
+  - **Infrastructure Optimization**: Tools for model testing and fine-tuning.
+  - **Data Layer**: Supports inference process where new data is processed.
+  - **Applications**: End-user tools leveraging foundational models.
+- **Common Concerns**: Hallucinations, data security, plagiarism, user spoofing, and sustainability challenges.
+
+### Study Questions (5)
+1. **New AI model architecture and availability of extensive training data are two factors in the rapid improvement of generative AI. What's the third?**
+   - A) AI optimizing AI code
+   - B) Increased parallel computing power
+   - C) Larger data storage capacity of servers
+   - D) Faster satellite data connections
+   - **Answer: B**
+
+2. **True or false: Developers must create their own large language models in order to add natural language processing to their applications.**
+   - A) True
+   - B) False
+   - **Answer: B**
+
+3. **What is the primary benefit of the transformer architecture in training large language models?**
+   - A) It uses satellite signals to generate responses
+   - B) It improves battery life for mobile devices
+   - C) It captures word relationships across long text spans using parallel calculations
+   - D) It reduces hallucinations in final outputs
+   - **Answer: C**
+
+4. **Which layer of the generative AI tech stack enables developers to access powerful AI through APIs like GPT or Claude?**
+   - A) Applications
+   - B) Foundational Models
+   - C) Cloud Platforms
+   - D) Infrastructure Optimization
+   - **Answer: B**
+
+5. **Why is sustainability a growing concern in generative AI development?**
+   - A) Generative AI models are expensive to license
+   - B) Generative AI models promote overuse of the internet
+   - C) Large models consume a lot of computing power, leading to environmental impact
+   - D) LLMs are not accurate in predicting energy use
+   - **Answer: C**
+
+## Unit 8: Explore Generative AI Models and Their Business Impact
+
+### Summary
+- **Model Types**:
+  - **GANs (Generative Adversarial Networks)**: Use generator and discriminator in competition to produce realistic content.
+  - **Transformers**: Process sequential data for context-rich output generation.
+  - **VAEs (Variational Autoencoders)**: Compress and reconstruct data to generate varied outputs.
+  - **Autoregressive Models**: Generate sequences by predicting the next element from previous ones.
+  - **Diffusion Models**: Learn to reverse noise processes to generate detailed data.
+- **Success Requirements**: Data quality, computational power, model design, evaluation metrics, iteration, and ethical use.
+- **Business Applications**: Revolutionizing industries such as pharmaceuticals, retail, entertainment, finance, automotive, and technology.
+- **Popular Tools**: Include ChatGPT, Claude, Gemini, DALL-E 3, Midjourney, Stable Diffusion, and more.
+- **Ethical Considerations**: Hallucinations, confident failures, data bias, misinformation, and sustainability concerns.
+
+### Study Questions (8)
+1. **What is the main function of a GAN in generative AI?**
+   - A) It optimizes cloud storage algorithms
+   - B) It translates languages
+   - C) It uses a generator and discriminator to produce realistic outputs
+   - D) It visualizes training data in dashboards
+   - **Answer: C**
+
+2. **Why are transformers used for language-based tasks?**
+   - A) They operate entirely without training
+   - B) They process context across sequences of data
+   - C) They generate only binary results
+   - D) They rely solely on image data
+   - **Answer: B**
+
+3. **Which model type predicts the next element in a sequence based on prior elements?**
+   - A) Diffusion
+   - B) Transformer
+   - C) Autoregressive
+   - D) VAE
+   - **Answer: C**
+
+4. **What is the purpose of the Fréchet Inception Distance (FID) metric?**
+   - A) To optimize transformer speed
+   - B) To calculate user engagement
+   - C) To evaluate quality of generated images
+   - D) To measure cloud compute cost
+   - **Answer: C**
+
+5. **What is a key benefit of using generative AI in the automotive industry?**
+   - A) Generating vehicle insurance reports
+   - B) Automating physical repairs
+   - C) Simulating vehicle components to reduce prototype needs
+   - D) Creating legal documentation for recalls
+   - **Answer: C**
+
+6. **What are some common ethical concerns with generative AI?**
+   - A) Excessive documentation and overtraining
+   - B) Compliance with open-source licenses
+   - C) Hallucinations, biased outputs, misinformation
+   - D) Too many models being open-sourced
+   - **Answer: C**
+
+7. **Which tool focuses on ethical AI conversations and safe interactions?**
+   - A) ChatGPT
+   - B) Claude
+   - C) Stable Diffusion
+   - D) DALL-E 3
+   - **Answer: B**
+
+8. **What is the main environmental challenge of generative AI?**
+   - A) AI training slows internet speeds
+   - B) It disrupts rural power grids
+   - C) Its carbon footprint and energy usage are high
+   - D) It leads to less demand for cloud storage
+   - **Answer: C**
+
+## Unit 9: Generative AI vs Predictive AI – The Creative and the Analytical
+
+### Summary
+- **Generative AI**: Focuses on creating new content—text, images, audio, and code—using models like GANs, transformers, and diffusion networks.
+- **Predictive AI**: Designed to forecast future outcomes based on historical data patterns, used in business analytics, finance, fraud detection, and healthcare.
+- **Use Cases Comparison**:
+  - **Generative**: Text generation, image synthesis, video creation, music composition, product design, and personalization.
+  - **Predictive**: Demand forecasting, customer behavior prediction, fraud detection, financial modeling, and marketing optimization.
+- **Training Requirements**: Generative AI requires high-quality, diverse data; Predictive AI requires well-labeled historical data.
+- **Limitations**: Generative AI may hallucinate or carry bias; Predictive AI may lack creativity and struggle with novel scenarios.
+- **Tools**:
+  - **Generative**: ChatGPT, Copilot, AlphaCode, DALL·E 3, Claude, Stable Diffusion, etc.
+  - **Predictive**: Tableau, Marketing Evolution (MEVO), Improvado, etc.
+- **Ethical Considerations**: Both raise concerns around data privacy, transparency, bias, and environmental impact.
+
+### Study Questions (8)
+1. **What is the primary goal of generative AI?**
+   - A) To make predictions based on historical data
+   - B) To analyze spreadsheet formulas
+   - C) To generate new content such as images or text
+   - D) To store large datasets in memory
+   - **Answer: C**
+
+2. **Which of the following is a typical use case for predictive AI?**
+   - A) Writing a novel
+   - B) Generating marketing slogans
+   - C) Forecasting product demand
+   - D) Creating animated characters
+   - **Answer: C**
+
+3. **Which model architecture is commonly used in generative AI to create realistic images?**
+   - A) Decision tree
+   - B) Convolutional neural network
+   - C) Generative Adversarial Network (GAN)
+   - D) Regression model
+   - **Answer: C**
+
+4. **What is one limitation of predictive AI?**
+   - A) It can't process any numerical data
+   - B) It may miss novel scenarios not present in the training data
+   - C) It creates unrealistic results with hallucinated content
+   - D) It only works with GANs
+   - **Answer: B**
+
+5. **What is a common benefit of combining generative and predictive AI?**
+   - A) Faster spreadsheet calculations
+   - B) Reducing training data size
+   - C) Supporting innovation and forecasting together
+   - D) Generating real-time hardware drivers
+   - **Answer: C**
+
+6. **Which of these tools is primarily used for predictive analysis?**
+   - A) DALL·E 3
+   - B) Midjourney
+   - C) Improvado
+   - D) ChatGPT
+   - **Answer: C**
+
+7. **Which best describes the learning process of predictive AI?**
+   - A) It analyzes sound waves to produce music
+   - B) It learns from patterns in real-time sensor data only
+   - C) It studies historical data to predict future events
+   - D) It copies content from other AI models
+   - **Answer: C**
+
+8. **Which type of AI is more focused on creative outputs like storytelling or artwork?**
+   - A) Predictive AI
+   - B) Diagnostic AI
+   - C) Generative AI
+   - D) Reactive AI
+   - **Answer: C**
+
+## Unit 10: Get to Know Natural Language Processing
+
+### Summary
+- **Definition**: Natural Language Processing (NLP) is a subfield of artificial intelligence that enables computers to understand, interpret, and generate human language.
+- **Applications**: Powers translation services, voice assistants, document editors, chatbots, and customer service platforms.
+- **Historical Evolution**:
+  - **1950s**: Turing Test, basic machine translation
+  - **1960s–80s**: Rule-based and knowledge-based systems
+  - **1990s–2000s**: Statistical approaches and web-scale datasets
+  - **2009–Present**: Neural networks and deep learning
+- **Key Components**:
+  - **Natural Language Understanding (NLU)**: Transforms unstructured text into structured meaning.
+  - **Natural Language Generation (NLG)**: Generates human-like language from structured data.
+- **Data Type Processing**: Converts between unstructured human language and structured formats for machine understanding.
+
+### Study Questions (2)
+1. **What is natural language?**
+   - A) The root of all languages.
+   - B) The ways humans communicate.
+   - C) How computers speak to each other.
+   - D) The language of plants.
+   - **Answer: B**
+
+2. **In what ways have neural networks impacted NLP?**
+   - A) NLP has become faster.
+   - B) NLP has become more contextually accurate.
+   - C) NLP is no longer important.
+   - D) A and B
+   - E) A and C
+   - **Answer: D**
+
+## Unit 11: Learn About Natural Language Parsing
+
+### Summary
+- **Definition**: Natural Language Parsing refers to techniques used by AI systems to analyze and derive meaning from human language.
+- **Elements of Natural Language**:
+  - **Vocabulary**: The words we use
+  - **Grammar**: Rules governing sentence structure
+  - **Syntax**: Word combinations according to grammar
+  - **Semantics**: Meaning of words and phrases
+  - **Pragmatics**: Context and intent behind language use
+  - **Discourse**: Units larger than single phrases/sentences
+  - **Phonetics**: Sounds made during communication
+  - **Morphology**: How word parts combine to form new words
+- **Parsing Techniques**:
+  - **Segmentation**: Breaking text into meaningful sections
+  - **Tokenization**: Splitting text into words or tokens
+  - **Stemming**: Reducing words to root forms (less accurate)
+  - **Lemmatization**: Reducing words to base form using grammar context (more accurate)
+  - **Part-of-Speech (POS) Tagging**: Assigning roles to words
+  - **Named Entity Recognition (NER)**: Identifying people, places, dates, etc.
+  - **Semantic Parsing**: Extracting meaning through grammatical analysis
+- **Analysis Techniques**:
+  - **Sentiment Analysis**: Determining emotional tone
+  - **Intent Analysis**: Identifying purpose behind text
+  - **Context/Discourse Analysis**: Using surrounding information to resolve ambiguity
+
+### Study Questions (7)
+1. **Which NLP technique uses the part of speech to more accurately find the root of a word?**
+   - A) Segmentation
+   - B) Tokenization
+   - C) Stemming
+   - D) Lemmatization
+   - **Answer: D**
+
+2. **What is the term for finding the underlying structure of text in NLP?**
+   - A) Parts of speech
+   - B) Parsing
+   - C) Morphology
+   - D) Sentiment
+   - **Answer: B**
+
+3. **What is the difference between stemming and lemmatization?**
+   - A) Stemming finds parts of speech, while lemmatization finds named entities
+   - B) Stemming removes punctuation; lemmatization finds sentence structure
+   - C) Stemming cuts words to a rough root form; lemmatization finds accurate root words based on context
+   - D) Stemming creates new words; lemmatization removes duplicates
+   - **Answer: C**
+
+4. **What is Named Entity Recognition (NER) used for in NLP?**
+   - A) Predicting numeric outcomes
+   - B) Classifying grammar types
+   - C) Identifying names, places, and organizations in text
+   - D) Counting word frequency
+   - **Answer: C**
+
+5. **Why is context analysis important in NLP?**
+   - A) It makes tokenization more efficient
+   - B) It enables compression of output
+   - C) It helps interpret meaning based on the broader situation
+   - D) It ensures longer sentences are broken down
+   - **Answer: C**
+
+6. **What is the goal of intent analysis in NLP?**
+   - A) To detect spelling mistakes
+   - B) To analyze tone and emotion
+   - C) To determine the purpose or goal behind a user's words
+   - D) To replace missing punctuation
+   - **Answer: C**
+
+7. **Which parsing method breaks large blocks of text into smaller, meaningful sections?**
+   - A) Lemmatization
+   - B) Segmentation
+   - C) Morphology
+   - D) Sentiment analysis
+   - **Answer: B**
+
+# Salesforce AI Associate Study Guide
+
+## Unit 12: Understand the Ethical Use of Technology
+### Summary
+
+Ethical technology use ensures AI systems reflect fairness, inclusion, and responsible decision-making. Ethical lapses in design or deployment can unintentionally cause harm or exclusion. Salesforce promotes ethical tech by translating core values into development processes and encouraging diverse perspectives throughout the product lifecycle. Bias can arise from flawed assumptions, lack of diverse data, or team homogeneity. Fairness involves making decisions that minimize disproportionate harm and consider systemic inequality. Creating an ethical culture requires cross-functional accountability, process documentation, and a clear understanding of how users are impacted.
+
+### Key Takeaways
+
+- Bias is a systematic error leading to unfair outcomes due to flawed assumptions or imbalanced data.
+- Fairness means decisions are made free of favoritism and consider impacts on underrepresented groups.
+- Diverse teams help identify blind spots and build more inclusive, accurate AI systems.
+- Ethical behavior must be supported by culture, processes, and documented accountability.
+- Understanding your customers' backgrounds and risks is essential to minimizing harm.
+- Ethics should be embedded into design, incentives, review boards, documentation, and customer feedback loops.
+
+### Multiple Choice Questions
+
+1. What's one definition of bias?
+   - A) Decision made free of self-interest, prejudice, or favoritism
+   - B) Judgement based on preconceived notions or prejudices rather than the impartial evaluation of facts
+   - C) The state of being diverse and having variety
+   - D) Impartial treatment without discrimination
+   - **Answer: B**
+
+2. Why are diverse teams important?
+   - A) They enable you to create more inclusive products that meet the needs of all your users, not just some of them.
+   - B) Only a few individuals are responsible for promoting ethics.
+   - C) They help you identify preconceived notions or assumptions that can be harmful for some users.
+   - D) A and C
+   - E) B and C
+   - **Answer: D**
+
+3. How can incentive structures promote ethical behavior?
+   - A) By focusing solely on user engagement and profits
+   - B) By rewarding employees for identifying ethical concerns or risks
+   - C) By discouraging reporting of feature gaps
+   - D) By removing compliance processes
+   - **Answer: B**
+
+4. Which of the following is a method of ethical oversight mentioned in this unit?
+   - A) Eliminating user feedback
+   - B) Releasing AI systems without review
+   - C) Establishing a review board to evaluate ethical risks
+   - D) Using only third-party vendors for audits
+   - **Answer: C**
+
+5. What is one question content writers should ask to support ethical AI use?
+   - A) How can I make the UI more colorful?
+   - B) Can I explain why the system made a prediction or recommendation in simple terms?
+   - C) How do I reduce character count in user messages?
+   - D) What is the system's ROI this quarter?
+   - **Answer: B**
+
+## Unit 13: Recognize Bias in Artificial Intelligence
+### Summary
+
+Bias in AI can lead to inaccurate, unfair, or harmful outcomes if not properly identified and mitigated. Bias enters through human assumptions, incomplete or skewed training data, flawed model design, or lack of diverse team input. Understanding how these biases manifest — from measurement to automation to survivorship bias — is critical to designing fair, ethical AI systems. Legal compliance is necessary but not always sufficient; ethical considerations must guide the use of protected data categories. Organizations must actively detect and remove bias while giving stakeholders feedback mechanisms to reduce harm and build trust.
+
+### Key Takeaways
+
+- Bias can originate from assumptions, datasets, models, or lack of human oversight.
+- Legal boundaries protect against discrimination, but ethical design must go further.
+- Types of bias include measurement, association, confirmation, automation, societal, survivorship, and interaction bias.
+- Measurement Bias: Occurs when data is inaccurately labeled, categorized, or collected. For example, if an image recognition model is trained only on black dogs and white cats, it might misclassify a white dog as a cat due to poor data representation.
+- Association Bias: Arises when data reflects cultural stereotypes or assumptions. For instance, labeling toys for girls as dolls and boys as action figures reinforces outdated gender roles.
+- Confirmation Bias: Happens when AI systems reinforce users' existing beliefs due to patterns in historical data. For example, recommendation systems may continue suggesting the same type of content based on previous behavior, limiting exposure to diverse perspectives.
+- Automation Bias: Occurs when AI-trained systems unintentionally encode and amplify subjective judgments. A beauty contest AI that was trained on predominantly white faces is one example — it judged beauty based on a narrow data sample, excluding diverse features.
+- Societal Bias: Results from long-standing social inequities. For example, using zip codes to predict creditworthiness may indirectly incorporate race into financial decisions, perpetuating redlining effects.
+- Survivorship Bias: Appears when models only consider successful outcomes, ignoring the full population. For example, assessing university recruiting success based only on current high-performing employees ignores those who didn't succeed or weren't hired.
+- Interaction Bias: Created when users intentionally or unintentionally manipulate AI systems during their use. A well-known case is when people taught a chatbot to mimic offensive behavior by repeatedly feeding it harmful prompts.
+- Bias can be introduced and magnified at every AI lifecycle stage—from design to deployment.
+
+#### How Bias Can Enter an AI System
+
+1. **Assumptions**
+   - What it means: System designers often make early assumptions about who the users are, what features are needed, and how the product will be used. These assumptions shape the system's design and data collection before any development even starts.
+   - Why it matters: If these assumptions reflect only a narrow perspective, they may unintentionally exclude or misrepresent the needs of underrepresented groups.
+   - What to do: Include diverse stakeholders in early design and research processes to reduce the risk of tunnel vision and to ensure inclusivity in how problems and solutions are framed.
+
+2. **Training Data**
+   - What it means: The historical data used to train AI models is one of the most common sources of bias. It reflects past behavior and decisions—which may already be biased.
+   - Why it matters: If a hiring system is trained only on past hires from specific schools or demographics, it will learn to prefer those candidates and ignore equally qualified ones from different backgrounds.
+   - What to do: Audit datasets to check for representational imbalances. Curate or supplement data to ensure it is inclusive, diverse, and free of harmful patterns.
+
+3. **Model Design**
+   - What it means: The features or variables selected to train the AI model can introduce bias if they are directly tied to or act as proxies for protected characteristics (e.g., race, gender, age).
+   - Why it matters: Even seemingly neutral inputs like ZIP codes or names can encode bias. For example, ZIP codes can correlate with race due to historical redlining.
+   - What to do: Avoid using protected characteristics or their proxies as features. Use fairness-aware modeling practices and tools that alert when a variable could introduce bias.
+
+4. **Human Intervention (or Lack Thereof)**
+   - What it means: Bias can be introduced or mitigated by how humans curate, clean, or label data. If there's no intervention, existing issues may go uncorrected.
+   - Why it matters: Interventions such as removing low-quality data or rebalancing label categories can drastically affect model behavior. The absence of human review allows bias to persist or worsen.
+   - What to do: Implement processes for ethical review and quality control. Allow users to provide feedback (both implicit and explicit) that can be used to adjust recommendations over time. Follow best practices like GDPR, which emphasize data accuracy, correction rights, and deletion.
+
+- Ethical AI systems require feedback loops, transparency, and thoughtful variable selection (e.g., avoiding proxies like zip code or name).
+
+### Multiple Choice Questions
+
+1. Which of the following is a result of association bias?
+   - A) Men being labeled as doctors and women being labeled as nurses in a dataset
+   - B) An image of an orange cat being predicted to be a coyote because all the coyotes in the dataset were orange and none of the cats were orange
+   - C) A person being denied a loan because the system inaccurately predicted they would be unable to repay it
+   - D) A company hiring only candidates from a particular university because it currently has successful employees from that university
+   - **Answer: A**
+
+2. How can bias enter a system?
+   - A) Through the values or assumptions of the creators
+   - B) From the training data
+   - C) From spending too much time on the project
+   - D) A and B
+   - E) A and C
+   - **Answer: D**
+
+3. What is an example of survivorship bias in AI?
+   - A) AI predicting product success only using data from best-selling items
+   - B) A chatbot learning slang from teen users
+   - C) Using labels from human annotators with language limitations
+   - D) Collecting data only from failed experiments
+   - **Answer: A**
+
+4. What is the difference between legal and ethical use of data in AI?
+   - A) Legal use considers business outcomes; ethical use considers cost
+   - B) Legal use avoids using protected classes; ethical use avoids causing harm even if legally allowed
+   - C) There is no difference; legal always means ethical
+   - D) Ethical means following company policy; legal means following social norms
+   - **Answer: B**
+
+5. Why is zip code considered a potentially biased data point in AI models?
+   - A) It's often incorrectly entered by users
+   - B) It can act as a proxy for race or socioeconomic status
+   - C) It is too complex for AI to interpret
+   - D) It changes frequently and introduces inconsistency
+   - **Answer: B**
+
+## Unit 14: Remove Bias from Your Data and Algorithms
+### Summary
+
+AI systems, while powerful, are only as good as the data and design choices behind them. Removing bias is not just a technical challenge—it requires intentional planning, cultural awareness, and collaboration. Biases in AI can result in unfair or inaccurate outcomes, especially when certain groups are overrepresented or excluded from datasets. Teams must recognize that biases stem from both data and human assumptions, and that systems must be evaluated continuously as social values evolve. Conducting premortems, identifying problematic patterns early, and building inclusive review processes are all essential strategies for ethical AI development.
+
+### Key Takeaways
+
+- Premortems help teams proactively identify risks and assumptions before deploying an AI project.
+- Datasets should be reviewed for over- or underrepresentation of specific groups, and statistical patterns should be questioned across demographic lines.
+- Unknown unknowns (errors the system is confident in but wrong about) are especially dangerous—context and culture matter.
+- AI models should be evaluated before and after deployment to ensure they haven't learned new, undesirable patterns.
+- Data must be treated as having a "half-life"—cultural shifts and technical feedback require ongoing review.
+- Community and user review processes are critical to surfacing overlooked ethical issues and improving fairness.
+- Ethical AI is a sociotechnical process: it must be informed by the social, cultural, and organizational structures in which it operates.
+
+#### Identify Excluded or Overrepresented Factors in Your Dataset:
+
+Bias often begins at the dataset level, where overrepresentation of majority patterns or exclusion of minority groups can skew AI outputs.
+
+- What: Your dataset may reflect patterns that apply only to the majority, failing to serve minority groups.
+- How: Consider designing different models for different segments rather than relying on a single, one-size-fits-all model.
+- What: Some user groups may be excluded from the dataset altogether.
+- How: Audit datasets to find and fill inclusion gaps by sourcing data from underrepresented populations.
+- What: Your model may produce "unknown unknowns"—high-confidence predictions that are actually wrong.
+- How: Run scenario testing and model audits to surface these errors before release.
+- What: Cultural and contextual differences may be missed if data lacks diversity in geography, language, or experience.
+- How: Include diverse stakeholders during data preparation and validation; use feedback loops from real users to improve representation.
+
+### Multiple Choice Study Questions
+
+1. What is a premortem in AI development?
+   - A) A retrospective after a failed launch
+   - B) A method for testing code before release
+   - C) A meeting to identify potential risks before the project begins
+   - D) A legal review of AI compliance
+   - **Answer: C**
+
+2. Why should AI teams consider unknown unknowns in model evaluation?
+   - A) They are labeled outliers in structured data
+   - B) They represent low-confidence predictions
+   - C) They are confident predictions that are incorrect, often revealing hidden bias
+   - D) They ensure faster data processing
+   - **Answer: C**
+
+3. What is one way to address underrepresented groups in your training dataset?
+   - A) Use only statistically significant majority patterns
+   - B) Add more layers to the model
+   - C) Design separate algorithms for different population segments
+   - D) Reduce training time
+   - **Answer: C**
+
+4. Why is it risky to treat AI training data as static?
+   - A) The model will eventually crash
+   - B) The data may become copyrighted
+   - C) The model could learn unintended patterns as data changes
+   - D) It consumes too much storage
+   - **Answer: C**
+
+5. What is one social reason for ongoing model evaluation?
+   - A) To reduce server costs
+   - B) Because society's values shift over time
+   - C) To ensure faster release cycles
+   - D) To increase profit margins
+   - **Answer: B**
+
+6. Which strategy can help teams proactively surface ethical concerns?
+   - A) Waiting for public feedback post-launch
+   - B) Skipping team discussions in early phases
+   - C) Conducting premortems to encourage open dialogue
+   - D) Limiting involvement to developers only
+   - **Answer: C**
+
+7. What is the role of community review in responsible AI?
+   - A) It creates marketing buzz
+   - B) It ensures models align with diverse user values and use contexts
+   - C) It reduces testing time
+   - D) It replaces internal QA processes
+   - **Answer: B**
+
+8. What does the phrase "data has a half-life" mean in this unit?
+   - A) Older data becomes cheaper
+   - B) The longer it exists, the more value it has
+   - C) Data decays in usefulness over time and must be reassessed
+   - D) AI models can only learn from the first half of a dataset
+   - **Answer: C**
+
+## Unit 15: Create Responsible Generative AI
+### Summary
+
+Generative AI (gen AI) represents a shift from traditional predictive models by generating new, original content instead of just analyzing existing data. While this opens exciting possibilities across industries—from marketing and customer support to code generation and content creation—it also introduces serious ethical, security, and social concerns. Responsible gen AI development requires clear principles, product safeguards, inclusive collaboration, and continual monitoring to ensure trust, safety, and long-term impact.
+
+### Key Takeaways (with Expanded Context)
+
+#### Generative AI vs Predictive AI
+
+Generative AI goes beyond analyzing trends; it creates new content. This could mean generating realistic images, writing human-like dialogue, or summarizing documents. Unlike predictive AI that simply forecasts outcomes, generative models can be mistaken for real authors, requiring stricter oversight.
+
+#### Know the Risks
+
+Gen AI carries risks including:
+
+- Accuracy: Generated content may look factual but can be completely wrong. This presents a serious problem when people interpret outputs as verified information.
+- Bias and Toxicity: Because training data often reflects real-world prejudice, models can reproduce or even amplify harmful stereotypes or offensive content if not carefully filtered.
+- Privacy and Safety: Gen AI can unintentionally leak training data or be exploited to create scams like phishing messages or deepfakes.
+- Disruption: Even properly functioning AI can lead to job displacement, high energy consumption, or widespread societal changes.
+
+#### Salesforce's Five Principles for Responsible AI
+
+To address these risks, Salesforce adheres to five core principles:
+
+- Accuracy: AI must be based on quality data, and users must be aware that AI content isn't always reliable.
+- Safety: Risk assessments, bias detection, privacy controls, and sandbox guardrails help prevent AI from causing harm.
+- Honesty: Salesforce doesn't use customer data without consent and ensures people know when they're interacting with AI (e.g., watermarks or disclaimers).
+- Empowerment: AI is designed to augment—not replace—human decision-making, especially in contexts requiring judgment.
+- Sustainability: Smaller, well-optimized models can sometimes outperform massive ones, reducing energy consumption and supporting long-term viability.
+
+#### How Salesforce Builds Trusted Gen AI
+
+- Einstein Trust Layer: A foundational privacy and security architecture that controls data access and ensures outputs are secure and compliant.
+- Design Decisions: Even UI choices and output limitations are crafted with ethical use in mind. This helps users avoid accidentally deploying harmful or misleading results.
+- Mindful Friction: Subtle interruptions, like in-app popups or warnings, guide users to review potential AI risks (e.g., flagged bias or toxicity).
+- Red Teaming: Salesforce uses internal adversarial testing to simulate bad actors and ensure models are robust against misuse (like prompt injection attacks).
+- Acceptable Use Policy: Formal guidelines outline ethical use, explicitly banning misuse like facial recognition or bots pretending to be humans.
+
+#### Moving Forward with Best Practices
+
+- Collaborate Across Sectors: No single team or company can tackle AI ethics alone. Public-private collaboration is key to advancing trust, fairness, and governance.
+- Include Diverse Perspectives: Bringing varied experiences and viewpoints into design processes helps anticipate edge cases and reduce blind spots. Techniques like consequence scanning bring inclusion into early planning.
+
+### Multiple Choice Study Questions
+
+1. What makes generative AI fundamentally different from predictive AI?
+   - A) It predicts future stock prices
+   - B) It creates new, original content rather than analyzing existing trends
+   - C) It uses less computing power
+   - D) It never needs human supervision
+   - **Answer: B**
+
+2. Why is accuracy a concern in generative AI?
+   - A) AI models can't process written text
+   - B) Users might assume the output is factually correct even when it's not
+   - C) All AI is programmed to be inaccurate
+   - D) It always pulls data from a live web feed
+   - **Answer: B**
+
+3. What is one way Salesforce prevents harm in its AI tools?
+   - A) It delays model updates by a year
+   - B) It removes user feedback options
+   - C) It includes friction popups and red teams systems to surface risk
+   - D) It limits AI to internal employees only
+   - **Answer: C**
+
+4. Why does bias and toxicity occur in generative AI?
+   - A) It only trains on perfect data
+   - B) AI removes all emotional nuance
+   - C) AI learns from human interactions and datasets, which often reflect existing societal bias
+   - D) It ignores training data completely
+   - **Answer: C**
+
+5. What is the purpose of the Einstein Trust Layer?
+   - A) To increase internet speed during model usage
+   - B) To eliminate the need for product teams
+   - C) To protect data privacy and ensure secure AI output
+   - D) To replace user decisions with automated actions
+   - **Answer: C**
+
+6. Which principle supports the idea that AI should enhance—not replace—human work?
+   - A) Honesty
+   - B) Empowerment
+   - C) Accuracy
+   - D) Sustainability
+   - **Answer: B**
+
+7. What is one reason to prioritize smaller, well-trained models in AI development?
+   - A) They are better at drawing art
+   - B) They avoid hallucinations by ignoring data
+   - C) They consume fewer resources and can outperform larger models in some cases
+   - D) They don't need user input
+   - **Answer: C**
+
+8. Why does Salesforce use red teaming?
+   - A) To slow down development for compliance
+   - B) To test models against likely misuse or attacks before launch
+   - C) To show off performance metrics
+   - D) To evaluate employee performance
+   - **Answer: B**
+
+9. What is mindful friction in the context of AI user experience?
+   - A) A hardware setting to slow AI speed
+   - B) Subtle interventions like popups that alert users to risks or request review
+   - C) Extra training data for the AI model
+   - D) Mandatory delays in all customer workflows
+   - **Answer: B**
+
+10. Which of the following is a best practice for building ethical gen AI systems?
+    - A) Releasing models without user feedback
+    - B) Prioritizing speed over collaboration
+    - C) Including diverse perspectives and cross-functional teams
+    - D) Avoiding government frameworks
+    - **Answer: C**
+
+## Unit 16: Learn About Einstein Bots
+### Summary
+
+Einstein Bots are Salesforce's solution for automating customer service through conversational AI. A chatbot is an application that simulates human conversation, allowing users to interact with a computer system via text or voice. While not all chatbots are powered by AI, Einstein Bots can use Natural Language Understanding (NLU) to provide smart, automated responses. The key to a successful chatbot lies in proper planning and realistic expectations, especially around the types of interactions it can handle.
+
+### Key Takeaways
+
+- A chatbot simulates a human conversation, typically through text or voice.
+- Chatbots help deflect simple support cases, reducing agent load and wait times.
+- NLU-powered bots can intelligently understand and respond to customer questions.
+- Not all chatbots use AI—some rely only on predefined rules or scripts.
+- Proper planning includes identifying FAQs, naming the bot, designing greetings, and defining escalation paths.
+- Salesforce recommends creating bots only after setting up service channels and case management, to ensure fallback support is in place.
+- Admins and agents should collaborate to build relevant responses and anticipate customer phrasing.
+- Einstein Bots can connect with knowledge bases (Lightning or Classic Knowledge) to provide better responses.
+- Chatbots support branding and personalization, e.g., naming the bot ("Solar Sammy") and customizing chat window behavior.
+
+### Multiple Choice Questions
+
+1. What is a chatbot?
+   - A) A database that tracks words in and out
+   - B) A robot that simulates people talking
+   - C) An application that simulates human conversation
+   - D) Software that records human conversations and plays them back
+   - E) An application that creates dialog for machines
+   - **Answer: C**
+
+2. Which of the following are benefits of chatbots?
+   - A) Case deflection, shorter wait times, and intelligent responses with NLU
+   - B) Saved time for customers, the display of useful content, and more efficient distribution processes
+   - C) Intelligent responses, quickly created cases, and use of stored data
+   - D) Reduced wait times, efficient service issue queues, and use of NUL
+   - E) Case deflection, intelligent agents, and scripted conversations
+   - **Answer: A**
+
+3. What role does Natural Language Understanding (NLU) play in chatbot functionality?
+   - A) It helps bots connect to phone systems.
+   - B) It enables bots to store customer data.
+   - C) It allows bots to understand and respond to human language more accurately.
+   - D) It defines the branding of a chatbot.
+   - **Answer: C**
+
+4. Why is it important to set up case management and service channels before enabling Einstein Bots?
+   - A) So bots can run faster.
+   - B) To ensure fallback options are available when a bot cannot resolve an issue.
+   - C) Because bots cannot function without phone support.
+   - D) To meet Salesforce licensing requirements.
+   - **Answer: B**
+
+5. Which of the following is part of the planning process for launching a chatbot?
+   - A) Buying separate hosting services for the bot
+   - B) Creating a separate Salesforce org for bot setup
+   - C) Identifying common customer issues and setting bot greetings
+   - D) Setting up external voice integration first
+   - **Answer: C**

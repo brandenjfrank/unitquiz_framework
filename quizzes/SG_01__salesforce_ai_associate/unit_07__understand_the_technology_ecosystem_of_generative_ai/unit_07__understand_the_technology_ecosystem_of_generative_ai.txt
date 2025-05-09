@@ -1,21 +1,57 @@
-### Unit 7: Understand the Technology Ecosystem of Generative AI ###
+UNIT 7: Understand the Technology Ecosystem of Generative AI
+==================================================
 
-### Summary ###
-The generative AI ecosystem includes foundational models, training data, compute infrastructure, APIs, and ethical frameworks. This unit discusses the importance of scalable architecture and the partnerships enabling widespread AI access.
+SUMMARY:
+- **Key Drivers of AI Advancement**:
+  - Massive volumes of training data (e.g., web pages)
+  - New neural network architectures, especially transformers
+  - Parallel computing power enabling faster training
+- **Transformer Models**: Identify important relationships between words, even across long text spans.
+- **Tech Stack Components**:
+  - **Computing Hardware**: High-performance processors (GPUs) enable large-scale AI training.
+  - **Cloud Platforms**: Provide access to computing infrastructure for AI development.
+  - **Foundational Models**: Pre-trained AI models accessed through APIs.
+  - **Infrastructure Optimization**: Tools for model testing and fine-tuning.
+  - **Data Layer**: Supports inference process where new data is processed.
+  - **Applications**: End-user tools leveraging foundational models.
+- **Common Concerns**: Hallucinations, data security, plagiarism, user spoofing, and sustainability challenges.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. New AI model architecture and availability of extensive training data are two factors in the rapid improvement of generative AI. What's the third?
+   A) AI optimizing AI code
+   B) Increased parallel computing power
+   C) Larger data storage capacity of servers
+   D) Faster satellite data connections
+   - **Answer: B**
+   Answer: B
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. True or false: Developers must create their own large language models in order to add natural language processing to their applications.
+   A) True
+   B) False
+   - **Answer: B**
+   Answer: B
 
-### End of Unit 7 ###
+3. What is the primary benefit of the transformer architecture in training large language models?
+   A) It uses satellite signals to generate responses
+   B) It improves battery life for mobile devices
+   C) It captures word relationships across long text spans using parallel calculations
+   D) It reduces hallucinations in final outputs
+   - **Answer: C**
+   Answer: C
+
+4. Which layer of the generative AI tech stack enables developers to access powerful AI through APIs like GPT or Claude?
+   A) Applications
+   B) Foundational Models
+   C) Cloud Platforms
+   D) Infrastructure Optimization
+   - **Answer: B**
+   Answer: B
+
+5. Why is sustainability a growing concern in generative AI development?
+   A) Generative AI models are expensive to license
+   B) Generative AI models promote overuse of the internet
+   C) Large models consume a lot of computing power, leading to environmental impact
+   D) LLMs are not accurate in predicting energy use
+   - **Answer: C**
+   Answer: C
+

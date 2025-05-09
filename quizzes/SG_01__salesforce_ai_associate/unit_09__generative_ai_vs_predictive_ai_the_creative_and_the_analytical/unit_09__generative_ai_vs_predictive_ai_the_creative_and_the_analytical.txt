@@ -1,0 +1,81 @@
+UNIT 9: Generative AI vs Predictive AI – The Creative and the Analytical
+==================================================
+
+SUMMARY:
+- **Generative AI**: Focuses on creating new content—text, images, audio, and code—using models like GANs, transformers, and diffusion networks.
+- **Predictive AI**: Designed to forecast future outcomes based on historical data patterns, used in business analytics, finance, fraud detection, and healthcare.
+- **Use Cases Comparison**:
+  - **Generative**: Text generation, image synthesis, video creation, music composition, product design, and personalization.
+  - **Predictive**: Demand forecasting, customer behavior prediction, fraud detection, financial modeling, and marketing optimization.
+- **Training Requirements**: Generative AI requires high-quality, diverse data; Predictive AI requires well-labeled historical data.
+- **Limitations**: Generative AI may hallucinate or carry bias; Predictive AI may lack creativity and struggle with novel scenarios.
+- **Tools**:
+  - **Generative**: ChatGPT, Copilot, AlphaCode, DALL·E 3, Claude, Stable Diffusion, etc.
+  - **Predictive**: Tableau, Marketing Evolution (MEVO), Improvado, etc.
+- **Ethical Considerations**: Both raise concerns around data privacy, transparency, bias, and environmental impact.
+
+QUESTIONS:
+1. What is the primary goal of generative AI?
+   A) To make predictions based on historical data
+   B) To analyze spreadsheet formulas
+   C) To generate new content such as images or text
+   D) To store large datasets in memory
+   - **Answer: C**
+   Answer: C
+
+2. Which of the following is a typical use case for predictive AI?
+   A) Writing a novel
+   B) Generating marketing slogans
+   C) Forecasting product demand
+   D) Creating animated characters
+   - **Answer: C**
+   Answer: C
+
+3. Which model architecture is commonly used in generative AI to create realistic images?
+   A) Decision tree
+   B) Convolutional neural network
+   C) Generative Adversarial Network (GAN)
+   D) Regression model
+   - **Answer: C**
+   Answer: C
+
+4. What is one limitation of predictive AI?
+   A) It can't process any numerical data
+   B) It may miss novel scenarios not present in the training data
+   C) It creates unrealistic results with hallucinated content
+   D) It only works with GANs
+   - **Answer: B**
+   Answer: B
+
+5. What is a common benefit of combining generative and predictive AI?
+   A) Faster spreadsheet calculations
+   B) Reducing training data size
+   C) Supporting innovation and forecasting together
+   D) Generating real-time hardware drivers
+   - **Answer: C**
+   Answer: C
+
+6. Which of these tools is primarily used for predictive analysis?
+   A) DALL·E 3
+   B) Midjourney
+   C) Improvado
+   D) ChatGPT
+   - **Answer: C**
+   Answer: C
+
+7. Which best describes the learning process of predictive AI?
+   A) It analyzes sound waves to produce music
+   B) It learns from patterns in real-time sensor data only
+   C) It studies historical data to predict future events
+   D) It copies content from other AI models
+   - **Answer: C**
+   Answer: C
+
+8. Which type of AI is more focused on creative outputs like storytelling or artwork?
+   A) Predictive AI
+   B) Diagnostic AI
+   C) Generative AI
+   D) Reactive AI
+   - **Answer: C**
+   Answer: C
+

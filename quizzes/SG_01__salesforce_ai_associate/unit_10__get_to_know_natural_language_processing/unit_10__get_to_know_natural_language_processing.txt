@@ -1,21 +1,34 @@
-### Unit 10: Get to Know Natural Language Processing ###
+UNIT 10: Get to Know Natural Language Processing
+==================================================
 
-### Summary ###
-Natural Language Processing (NLP) allows computers to understand and generate human language. Modern NLP systems rely on neural networks to perform tasks such as translation, summarization, and conversational interaction.
+SUMMARY:
+- **Definition**: Natural Language Processing (NLP) is a subfield of artificial intelligence that enables computers to understand, interpret, and generate human language.
+- **Applications**: Powers translation services, voice assistants, document editors, chatbots, and customer service platforms.
+- **Historical Evolution**:
+  - **1950s**: Turing Test, basic machine translation
+  - **1960s–80s**: Rule-based and knowledge-based systems
+  - **1990s–2000s**: Statistical approaches and web-scale datasets
+  - **2009–Present**: Neural networks and deep learning
+- **Key Components**:
+  - **Natural Language Understanding (NLU)**: Transforms unstructured text into structured meaning.
+  - **Natural Language Generation (NLG)**: Generates human-like language from structured data.
+- **Data Type Processing**: Converts between unstructured human language and structured formats for machine understanding.
 
-### Questions ###
-Question 1: What makes generative AI fundamentally different from predictive AI?
-A) It predicts future stock prices
-B) It creates new, original content rather than analyzing existing trends
-C) It uses less computing power
-D) It never needs human supervision
-Answer: B
+QUESTIONS:
+1. What is natural language?
+   A) The root of all languages.
+   B) The ways humans communicate.
+   C) How computers speak to each other.
+   D) The language of plants.
+   - **Answer: B**
+   Answer: B
 
-Question 2: Why is accuracy a concern in generative AI?
-A) AI models can’t process written text
-B) Users might assume the output is factually correct even when it’s not
-C) All AI is programmed to be inaccurate
-D) It always pulls data from a live web feed
-Answer: B
+2. In what ways have neural networks impacted NLP?
+   A) NLP has become faster.
+   B) NLP has become more contextually accurate.
+   C) NLP is no longer important.
+   D) A and B
+   E) A and C
+   - **Answer: D**
+   Answer: D
 
-### End of Unit 10 ###

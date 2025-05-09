@@ -1,29 +1,196 @@
 {
   "unit_number": 1,
   "title": "Get Started with Artificial Intelligence",
-  "summary": "AI allows computers to perform tasks traditionally requiring human intelligence, such as reasoning, learning, and problem-solving. Definitions are difficult due to the variability in intelligence across species and portrayals in fiction. Current AI systems are specialized for tasks such as numeric prediction, classification, robotic navigation, and natural language processing.",
+  "summary": "- **AI Definition**: AI allows computers to perform tasks typically associated with human intelligence, intuition, and reasoning.\n- **Challenge in Defining AI**: Difficulties arise due to human-centric perspectives, varying intelligence among humans and animals, and fictional portrayals of AI.\n- **Specialized AI**: Currently, AI systems excel in specialized tasks rather than generalized intelligence.\n- **Main AI Capabilities**:\n  - **Numeric Predictions**: Forecasting outcomes like weather, sales, or risk levels.\n  - **Classifications**: Sorting data into categories, such as detecting fraud or classifying images.\n  - **Robotic Navigation**: Navigating dynamic environments, applied in autonomous driving, logistics optimization, and robotic movements.\n  - **Language Processing (NLP)**: Interpreting and generating natural language, enabling translations, summaries, and conversations.",
+  "key_takeaways": [],
   "questions": [
     {
-      "question_number": 1,
-      "question": "What makes generative AI fundamentally different from predictive AI?",
-      "choices": {
-        "A": "It predicts future stock prices",
-        "B": "It creates new, original content rather than analyzing existing trends",
-        "C": "It uses less computing power",
-        "D": "It never needs human supervision"
-      },
-      "answer": "B"
+      "question": "Why is defining AI challenging?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI systems always think exactly like humans."
+        },
+        {
+          "id": "B",
+          "text": "Our views are distorted by science fiction and human-centered biases."
+        },
+        {
+          "id": "C",
+          "text": "AI is already perfect and requires no definition."
+        },
+        {
+          "id": "D",
+          "text": "AI definitions are strictly regulated by law.\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
     },
     {
-      "question_number": 2,
-      "question": "Why is accuracy a concern in generative AI?",
-      "choices": {
-        "A": "AI models can\u2019t process written text",
-        "B": "Users might assume the output is factually correct even when it\u2019s not",
-        "C": "All AI is programmed to be inaccurate",
-        "D": "It always pulls data from a live web feed"
-      },
-      "answer": "B"
+      "question": "Which of the following is NOT one of the specialized capabilities of AI mentioned?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numeric predictions"
+        },
+        {
+          "id": "B",
+          "text": "Classifications"
+        },
+        {
+          "id": "C",
+          "text": "Robotic navigation"
+        },
+        {
+          "id": "D",
+          "text": "General emotional understanding\n   - **Answer: D**"
+        }
+      ],
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "question": "Numeric predictions by AI could include predicting:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only weather forecasts"
+        },
+        {
+          "id": "B",
+          "text": "Any numeric value like sales or pricing"
+        },
+        {
+          "id": "C",
+          "text": "Only binary outcomes (yes/no)"
+        },
+        {
+          "id": "D",
+          "text": "Only financial transactions\n   - **Answer: B**"
+        }
+      ],
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "question": "Which scenario illustrates AI performing a classification task?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Predicting tomorrow's temperature"
+        },
+        {
+          "id": "B",
+          "text": "A robot vacuum avoiding furniture"
+        },
+        {
+          "id": "C",
+          "text": "Detecting fraudulent transactions"
+        },
+        {
+          "id": "D",
+          "text": "Translating a letter into Spanish\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Robotic navigation AI is specifically good at:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Translating natural languages"
+        },
+        {
+          "id": "B",
+          "text": "Identifying phishing emails"
+        },
+        {
+          "id": "C",
+          "text": "Adapting to changing environments"
+        },
+        {
+          "id": "D",
+          "text": "Predicting quarterly sales figures\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "Natural Language Processing (NLP) primarily focuses on:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Predicting weather"
+        },
+        {
+          "id": "B",
+          "text": "Identifying numeric trends"
+        },
+        {
+          "id": "C",
+          "text": "Translating or interpreting human language"
+        },
+        {
+          "id": "D",
+          "text": "Navigating autonomous vehicles\n   - **Answer: C**"
+        }
+      ],
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "question": "What can distort our understanding of artificial intelligence?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solar flares"
+        },
+        {
+          "id": "B",
+          "text": "An unclear definition of artificial"
+        },
+        {
+          "id": "C",
+          "text": "Fictional representations of AI"
+        },
+        {
+          "id": "D",
+          "text": "A narrow view of what constitutes intelligence"
+        },
+        {
+          "id": "E",
+          "text": "C and D\n   - **Answer: E**"
+        }
+      ],
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "question": "Which broad category would an AI system fit into if it's used to determine the optimal price of an airline ticket?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numeric prediction"
+        },
+        {
+          "id": "B",
+          "text": "Classification"
+        },
+        {
+          "id": "C",
+          "text": "Robotic navigation"
+        },
+        {
+          "id": "D",
+          "text": "Language processing\n   - **Answer: A**"
+        }
+      ],
+      "answer": "A",
+      "explanation": ""
     }
   ]
 }
