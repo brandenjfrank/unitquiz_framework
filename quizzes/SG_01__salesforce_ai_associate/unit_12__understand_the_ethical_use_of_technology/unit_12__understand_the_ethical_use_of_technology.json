@@ -1,0 +1,29 @@
+{
+  "unit_number": 12,
+  "title": "Understand the Ethical Use of Technology",
+  "summary": "Ethical AI ensures fairness, transparency, and inclusion in technology. This unit highlights how teams must design systems that reduce bias, involve diverse voices, and align with human values. Documentation, review boards, and incentive structures support responsible AI use.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "What makes generative AI fundamentally different from predictive AI?",
+      "choices": {
+        "A": "It predicts future stock prices",
+        "B": "It creates new, original content rather than analyzing existing trends",
+        "C": "It uses less computing power",
+        "D": "It never needs human supervision"
+      },
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question": "Why is accuracy a concern in generative AI?",
+      "choices": {
+        "A": "AI models can\u2019t process written text",
+        "B": "Users might assume the output is factually correct even when it\u2019s not",
+        "C": "All AI is programmed to be inaccurate",
+        "D": "It always pulls data from a live web feed"
+      },
+      "answer": "B"
+    }
+  ]
+}

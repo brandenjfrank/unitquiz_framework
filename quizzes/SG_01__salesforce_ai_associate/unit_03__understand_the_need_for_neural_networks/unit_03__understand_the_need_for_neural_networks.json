@@ -1,0 +1,29 @@
+{
+  "unit_number": 3,
+  "title": "Understand the Need for Neural Networks",
+  "summary": "Neural networks enable machines to simulate the structure of the human brain for better pattern recognition. This unit explains why linear algorithms aren't always sufficient and introduces the layers, nodes, and feedback mechanisms used in deep learning models.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "What makes generative AI fundamentally different from predictive AI?",
+      "choices": {
+        "A": "It predicts future stock prices",
+        "B": "It creates new, original content rather than analyzing existing trends",
+        "C": "It uses less computing power",
+        "D": "It never needs human supervision"
+      },
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question": "Why is accuracy a concern in generative AI?",
+      "choices": {
+        "A": "AI models can\u2019t process written text",
+        "B": "Users might assume the output is factually correct even when it\u2019s not",
+        "C": "All AI is programmed to be inaccurate",
+        "D": "It always pulls data from a live web feed"
+      },
+      "answer": "B"
+    }
+  ]
+}

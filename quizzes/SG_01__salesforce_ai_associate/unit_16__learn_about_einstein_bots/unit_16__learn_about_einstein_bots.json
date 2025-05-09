@@ -1,0 +1,29 @@
+{
+  "unit_number": 16,
+  "title": "Learn About Einstein Bots",
+  "summary": "Einstein Bots use AI to automate customer conversations. This unit explores chatbot setup, planning, natural language understanding, and escalation logic. Bots reduce support loads and deliver consistent, branded service interactions.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "What makes generative AI fundamentally different from predictive AI?",
+      "choices": {
+        "A": "It predicts future stock prices",
+        "B": "It creates new, original content rather than analyzing existing trends",
+        "C": "It uses less computing power",
+        "D": "It never needs human supervision"
+      },
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question": "Why is accuracy a concern in generative AI?",
+      "choices": {
+        "A": "AI models can\u2019t process written text",
+        "B": "Users might assume the output is factually correct even when it\u2019s not",
+        "C": "All AI is programmed to be inaccurate",
+        "D": "It always pulls data from a live web feed"
+      },
+      "answer": "B"
+    }
+  ]
+}

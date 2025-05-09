@@ -1,0 +1,21 @@
+### Unit 16: Learn About Einstein Bots ###
+
+### Summary ###
+Einstein Bots use AI to automate customer conversations. This unit explores chatbot setup, planning, natural language understanding, and escalation logic. Bots reduce support loads and deliver consistent, branded service interactions.
+
+### Questions ###
+Question 1: What makes generative AI fundamentally different from predictive AI?
+A) It predicts future stock prices
+B) It creates new, original content rather than analyzing existing trends
+C) It uses less computing power
+D) It never needs human supervision
+Answer: B
+
+Question 2: Why is accuracy a concern in generative AI?
+A) AI models can’t process written text
+B) Users might assume the output is factually correct even when it’s not
+C) All AI is programmed to be inaccurate
+D) It always pulls data from a live web feed
+Answer: B
+
+### End of Unit 16 ###

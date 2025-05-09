@@ -1,0 +1,29 @@
+{
+  "unit_number": 1,
+  "title": "Get Started with Artificial Intelligence",
+  "summary": "AI allows computers to perform tasks traditionally requiring human intelligence, such as reasoning, learning, and problem-solving. Definitions are difficult due to the variability in intelligence across species and portrayals in fiction. Current AI systems are specialized for tasks such as numeric prediction, classification, robotic navigation, and natural language processing.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "What makes generative AI fundamentally different from predictive AI?",
+      "choices": {
+        "A": "It predicts future stock prices",
+        "B": "It creates new, original content rather than analyzing existing trends",
+        "C": "It uses less computing power",
+        "D": "It never needs human supervision"
+      },
+      "answer": "B"
+    },
+    {
+      "question_number": 2,
+      "question": "Why is accuracy a concern in generative AI?",
+      "choices": {
+        "A": "AI models can\u2019t process written text",
+        "B": "Users might assume the output is factually correct even when it\u2019s not",
+        "C": "All AI is programmed to be inaccurate",
+        "D": "It always pulls data from a live web feed"
+      },
+      "answer": "B"
+    }
+  ]
+}
