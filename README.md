@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UnitQuiz Framework
 
 A command-line tool for studying with modular, unit-based quizzes. This instance includes:
@@ -14,3 +15,7 @@ A command-line tool for studying with modular, unit-based quizzes. This instance
 ```bash
 python src/main.py
 ```
+=======
+# unitquiz_framework
+A command-line quiz tool for study guides and certifications
+>>>>>>> 813f77a341df6f95972694c86d834efa3317a28b
